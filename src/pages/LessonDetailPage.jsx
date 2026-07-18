@@ -43,6 +43,19 @@ function Block({ block, i }) {
       );
     case 'gem':
       return <GemBlock block={block} key={i} />;
+    case 'refs':
+      return (
+        <div className="lesson-refs" key={i}>
+          <span className="lesson-refs-label">{block.label}</span>
+          <div className="passage-chips">
+            {block.items.map((item, j) => (
+              <span className="chip-static" key={j}>
+                {item}
+              </span>
+            ))}
+          </div>
+        </div>
+      );
     default:
       return <p key={i}>{block.text}</p>;
   }
