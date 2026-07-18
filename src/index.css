@@ -261,13 +261,10 @@ img {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: repeating-linear-gradient(
-    120deg,
-    rgba(214, 181, 98, 0.06) 0,
-    rgba(214, 181, 98, 0.06) 1px,
-    transparent 1px,
-    transparent 60px
-  );
+  background-image: url('/images/pattern.svg');
+  background-repeat: repeat;
+  background-size: 220px 220px;
+  opacity: 0.16;
   z-index: 0;
 }
 
@@ -365,8 +362,26 @@ img {
 
 /* ---------------- Latest update (Home) ---------------- */
 .latest-update {
+  position: relative;
   background: var(--jade-900);
   padding: 4rem 0;
+  overflow: hidden;
+}
+
+.latest-update::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('/images/pattern.svg');
+  background-repeat: repeat;
+  background-size: 220px 220px;
+  opacity: 0.12;
+  z-index: 0;
+}
+
+.latest-update .container {
+  position: relative;
+  z-index: 1;
 }
 
 .latest-update .eyebrow {
@@ -386,8 +401,26 @@ img {
 
 /* ---------------- Page banner ---------------- */
 .page-banner {
+  position: relative;
   background: linear-gradient(160deg, var(--jade-950), var(--jade-800) 70%);
   padding: 4rem 0 3rem;
+  overflow: hidden;
+}
+
+.page-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('/images/pattern.svg');
+  background-repeat: repeat;
+  background-size: 220px 220px;
+  opacity: 0.14;
+  z-index: 0;
+}
+
+.page-banner .container {
+  position: relative;
+  z-index: 1;
 }
 
 .page-banner h1 {
@@ -426,7 +459,20 @@ img {
   justify-content: center;
 }
 
+.about-media::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('/images/pattern.svg');
+  background-repeat: repeat;
+  background-size: 220px 220px;
+  opacity: 0.16;
+  z-index: 0;
+}
+
 .about-media .mark {
+  position: relative;
+  z-index: 1;
   width: 110px;
   height: 110px;
   color: rgba(214, 181, 98, 0.85);
@@ -601,6 +647,84 @@ img {
   font-weight: 700;
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+.update-ps {
+  margin-top: 2rem;
+  padding: 1.5rem 1.75rem;
+  background: var(--cream-100);
+  border-radius: var(--radius-lg);
+}
+
+.update-ps h3 {
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gold-600);
+  margin-bottom: 0.75rem;
+}
+
+.update-ps p {
+  color: var(--ink-600);
+}
+
+.update-ps p:last-child {
+  margin-bottom: 0;
+}
+
+.update-week-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.lesson-subtitle {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--ink-600);
+  max-width: 720px;
+  margin: -1.25rem 0 2rem;
+}
+
+.core-passages {
+  margin-bottom: 2.5rem;
+  max-width: 720px;
+}
+
+.core-passages h3 {
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gold-600);
+  margin-bottom: 0.75rem;
+}
+
+.passage-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip-static {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  background: var(--cream-100);
+  color: var(--jade-800);
+  font-weight: 600;
+  font-size: 0.82rem;
+}
+
+.update-body h2 {
+  font-size: 1.4rem;
+  color: var(--jade-900);
+  margin: 2.5rem 0 1.25rem;
+}
+
+.update-body h2:first-child {
+  margin-top: 0;
 }
 
 /* ---------------- Lessons (empty state) ---------------- */

@@ -44,6 +44,15 @@ export default function UpdateDetailPage() {
             </p>
           )}
 
+          {update.ps && (
+            <div className="update-ps">
+              <h3>P.S.</h3>
+              {update.ps.split('\n\n').map((para, i) => (
+                <p key={i}>{para}</p>
+              ))}
+            </div>
+          )}
+
           <div className="update-support-note">
             <p>
               Want to partner in this work? See the{' '}

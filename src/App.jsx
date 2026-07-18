@@ -5,6 +5,7 @@ import AboutPage from './pages/AboutPage';
 import UpdatesPage from './pages/UpdatesPage';
 import UpdateDetailPage from './pages/UpdateDetailPage';
 import LessonsPage from './pages/LessonsPage';
+import LessonDetailPage from './pages/LessonDetailPage';
 import SupportPage from './pages/SupportPage';
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/updates" element={<UpdatesPage />} />
           <Route path="/updates/:slug" element={<UpdateDetailPage />} />
           <Route path="/lessons" element={<LessonsPage />} />
+          <Route path="/lessons/:slug" element={<LessonDetailPage />} />
           <Route path="/support" element={<SupportPage />} />
         </Route>
       </Routes>
