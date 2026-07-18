@@ -727,6 +727,97 @@ img {
   margin-top: 0;
 }
 
+.update-body h3 {
+  font-size: 1.05rem;
+  color: var(--jade-800);
+  margin: 2rem 0 1rem;
+}
+
+.lesson-translation-note {
+  color: var(--ink-400);
+  font-size: 0.9rem;
+  font-style: italic;
+  margin: -1.5rem 0 2rem;
+}
+
+.central-question {
+  max-width: 720px;
+  background: var(--jade-900);
+  color: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.central-question-label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold-400);
+  margin-bottom: 0.5rem;
+}
+
+.central-question p {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.15rem;
+  margin: 0;
+}
+
+.lesson-list {
+  color: var(--ink-600);
+  font-size: 1.05rem;
+  line-height: 1.75;
+  padding-left: 1.4rem;
+  margin: 0 0 1.5rem;
+}
+
+.lesson-list li {
+  margin-bottom: 0.5rem;
+}
+
+.lesson-prompt {
+  color: var(--jade-800) !important;
+  font-weight: 600;
+  font-style: italic;
+  background: var(--cream-100);
+  border-radius: var(--radius-sm);
+  padding: 0.75rem 1rem;
+  margin: 1.25rem 0 !important;
+}
+
+.lesson-gem {
+  margin: 2rem 0;
+  padding: 1.5rem 1.75rem;
+  background: var(--cream-100);
+  border-left: 3px solid var(--gold-500);
+  border-radius: var(--radius-sm);
+}
+
+.lesson-gem-title {
+  display: block;
+  font-weight: 700;
+  color: var(--jade-900);
+  margin-bottom: 0.75rem;
+}
+
+.lesson-gem p {
+  margin-bottom: 0.5rem;
+}
+
+.lesson-gem p:last-child {
+  margin-bottom: 0;
+}
+
+.lesson-gem ul {
+  color: var(--ink-600);
+  padding-left: 1.2rem;
+  margin: 0.5rem 0;
+}
+
 /* ---------------- Lessons (empty state) ---------------- */
 .lessons-empty {
   padding: 4rem 0 6rem;
