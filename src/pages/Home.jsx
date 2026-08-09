@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import { updates, support } from '../data';
+import Hero from '../components/Hero';
+import { updates } from '../data';
 import { BookIcon, HeartIcon, HandsIcon } from '../components/icons';
 
 const quickLinks = [
@@ -13,62 +14,19 @@ export default function Home() {
 
   return (
     <>
+      <Hero />
+
       {latest && (
-        <section className="update-detail home-latest">
+        <section className="latest-update">
           <div className="container">
-            <span className="update-week">Latest Update &middot; Week {latest.week}</span>
-            <h1>{latest.title}</h1>
-
-            <article className="update-body">
-              {latest.body.map((block, i) => {
-                if (block.type === 'h2') return <h2 key={i}>{block.text}</h2>;
-                if (block.type === 'h3') return <h3 key={i}>{block.text}</h3>;
-                return <p key={i}>{block.text}</p>;
-              })}
-
-              {latest.prayerPoints && (
-                <div className="prayer-points">
-                  <h3>How You Can Pray</h3>
-                  <ol>
-                    {latest.prayerPoints.map((point, i) => (
-                      <li key={i}>{point}</li>
-                    ))}
-                  </ol>
-                </div>
-              )}
-
-              {latest.closing && (
-                <p className="update-signature">
-                  {latest.closing.text}
-                  <br />
-                  <br />
-                  {latest.closing.signoff}
-                  <br />
-                  <strong>{latest.closing.signature}</strong>
-                </p>
-              )}
-
-              <div className="update-support-note">
-                <p>
-                  Want to partner in this work? See the{' '}
-                  <Link to="/support">Support page</Link> for prayer needs and ways to give,
-                  including through{' '}
-                  <a href={support.throughRoehIsrael} target="_blank" rel="noopener noreferrer">
-                    Congregation Roeh Israel
-                  </a>
-                  .
-                </p>
-              </div>
-            </article>
-
-            <div className="hero-actions home-latest-actions">
-              <Link className="btn btn-primary" to="/updates">
-                See All Updates
-              </Link>
-              <Link className="btn btn-ghost" to="/support">
-                Support the Mission
-              </Link>
+            <div className="section-head">
+              <span className="eyebrow">Latest from the field</span>
+              <h2>Week {latest.week}: {latest.title}</h2>
+              <p>{latest.excerpt}</p>
             </div>
+            <Link className="btn btn-primary" to={`/updates/${latest.slug}`}>
+              Read the Full Update
+            </Link>
           </div>
         </section>
       )}
