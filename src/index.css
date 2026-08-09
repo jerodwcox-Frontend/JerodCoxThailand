@@ -602,6 +602,14 @@ img {
   padding: 3rem 0 5rem;
 }
 
+.home-latest {
+  padding-bottom: 2.5rem;
+}
+
+.home-latest-actions {
+  margin-top: 2rem;
+}
+
 .back-link {
   display: inline-block;
   font-weight: 700;
