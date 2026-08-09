@@ -450,6 +450,639 @@ export const updates = [
 
 export const lessons = [
   {
+    "slug": "reeh-do-not-send-him-away-empty-handed",
+    "title": "Do Not Send Him Away Empty-Handed",
+    "subtitle": "Parashat Re’eh — Deuteronomy 11:26–16:17 · A teaching given before prayer for the nations",
+    "translationNote": "לֹא תְשַׁלְּחֶנּוּ רֵיקָם — “You shall not send him away empty-handed.” (Deuteronomy 15:13)",
+    "excerpt": "How does a person actually get free? Parashat Re’eh answers with one word — gift — and every gift points to the Lamb, the door, and the Master who would not send His servants out empty-handed.",
+    "passages": [
+      "Deuteronomy 15:12–18",
+      "Genesis 15:13–14",
+      "Exodus 3:21–22",
+      "Exodus 12:7",
+      "Exodus 12:13",
+      "Exodus 12:22–23",
+      "Deuteronomy 12:2–7",
+      "Psalm 68:18",
+      "John 10:7–9",
+      "Hebrews 10:19–20",
+      "Ephesians 4:7–8",
+      "Revelation 5:9"
+    ],
+    "centralQuestion": "How does a person actually get free — not legally free, but free — and how does a freed person learn to worship out of love rather than fear?",
+    "body": [
+      {
+        "type": "h2",
+        "text": "Opening"
+      },
+      {
+        "type": "p",
+        "text": "Tonight we are asking one question in three forms:"
+      },
+      {
+        "type": "p",
+        "text": "1. How does a person actually get free? Not legally free — free."
+      },
+      {
+        "type": "p",
+        "text": "2. How does a freed person learn to worship out of love rather than fear?"
+      },
+      {
+        "type": "p",
+        "text": "3. How does a person feel with someone whose life he has never lived?"
+      },
+      {
+        "type": "p",
+        "text": "The parasha answers all three with the same word: gift. And every gift in this parasha points forward to the One who ascended on high, led captivity captive, and gave gifts to men (Psalm 68:18; Ephesians 4:7–8)."
+      },
+      {
+        "type": "p",
+        "text": "But before we get to the gift, we have to get through the door. Everything tonight happens at a doorway with blood on it."
+      },
+      {
+        "type": "h2",
+        "text": "Part One — The Consolation That Doesn't Console"
+      },
+      {
+        "type": "p",
+        "text": "Turn with me to Genesis 15:13–14. G-d tells Abraham that his offspring will be strangers in a land not their own, enslaved and afflicted four hundred years — and then adds, almost as an afterthought, \"and afterward they shall come out with great possessions.\""
+      },
+      {
+        "type": "p",
+        "text": "Ask yourself honestly: why would that comfort anyone? Four centuries of bondage, and the closing note is a severance package? If I were Abraham, I would not be consoled."
+      },
+      {
+        "type": "p",
+        "text": "But the text itself supplies three answers."
+      },
+      {
+        "type": "p",
+        "text": "A. Abraham had already lived this story. Genesis 12:10–20 — Abraham goes down to Egypt because of famine, Pharaoh takes his wife, G-d strikes Pharaoh's house with plagues, Pharaoh gives Abraham livestock, servants, silver and gold, and sends him away (Heb. va-yeshalchu, 12:20) with everything he had. Abraham was told his children's story because he had already walked it himself. Ma'aseh avot siman l'banim — the deeds of the fathers are a sign for the children."
+      },
+      {
+        "type": "p",
+        "text": "B. Abraham was the one man alive who understood that it matters where wealth comes from. Genesis 14:21–23 — he refuses every thread and sandal-strap from the king of Sodom, \"lest you should say, 'I have made Abram rich.'\" Now tell that man his children will leave Egypt with great wealth, and he hears something very specific: they will not be enriched on their oppressor's terms. They will leave as free men holding what was freely given."
+      },
+      {
+        "type": "p",
+        "text": "C. Wealth is the mark of an heir, not compensation for a victim. The whole covenant of Genesis 15 is about inheritance (15:7). Slaves escape. Sons inherit. G-d is telling Abraham: your children will not slip out the back door of Egypt as runaways. They will walk out the front as heirs."
+      },
+      {
+        "type": "p",
+        "text": "Hear how this lands in Messiah. Galatians 4:1–7 — \"So you are no longer a slave, but a son; and if a son, then an heir through G-d.\" Romans 8:15–17 — we did not receive a spirit of slavery leading back into fear, but the Spirit of adoption, \"and if children, then heirs.\" The \"great wealth\" of Genesis 15 is the Abrahamic shape of every believer's exodus: you come out holding an inheritance, because coming out is the inheritance."
+      },
+      {
+        "type": "h2",
+        "text": "Part Two — Why Not Just Take It?"
+      },
+      {
+        "type": "p",
+        "text": "Read Exodus 3:21–22. G-d says He will give the people chen — favor, grace — in the eyes of the Egyptians, so that when they go, \"you shall not go empty-handed.\" Each woman will ask her neighbor for silver, gold and clothing. See also Exodus 11:2–3 and Exodus 12:35–36."
+      },
+      {
+        "type": "p",
+        "text": "Now stop and notice how strange this is. Why the elaborate psychological miracle? G-d was already running the plagues. During the ninth plague (Exodus 10:22–23) there was thick darkness over Egypt for three days while Israel had light in their dwellings. A perfect heist. Walk in, take whatever you like, walk out. Why instead perform a miracle inside the minds of the slavemasters so that they hand it over gladly?"
+      },
+      {
+        "type": "p",
+        "text": "Because plunder and gift produce two completely different people."
+      },
+      {
+        "type": "list",
+        "items": [
+          "A people who seize wealth leaves Egypt as a raiding party. Their founding memory is we took. They remain defined by the fight, which means they remain defined by Egypt.",
+          "A people who receive wealth leaves Egypt escorted. Their founding memory is we were given, and they walked us to the door."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The gift is not about the money. The gift is the closing of the account. It is the oppressor's own hand testifying that the relationship is over and the slave is going out a free man."
+      },
+      {
+        "type": "p",
+        "text": "Philippians 2:6 — Messiah \"did not consider equality with G-d something to be grasped\" (Gk. harpagmos, a thing seized). Set that against Genesis 3:6, where the woman took and ate. The first Adam grasped; the last Adam received and gave. Ephesians 2:8–9 — salvation is \"the gift of G-d, not of works, lest anyone should boast.\" Romans 6:23 — \"the free gift of G-d is eternal life.\" G-d has never once let His people leave a house of bondage as thieves. He always makes it a gift, because a gift is what makes a freedman."
+      },
+      {
+        "type": "h2",
+        "text": "Part Three — The Servant at the Door"
+      },
+      {
+        "type": "p",
+        "text": "Now to our parasha. Read Deuteronomy 15:12–18 aloud, slowly."
+      },
+      {
+        "type": "p",
+        "text": "v.12–14 — After six years you must send your Hebrew servant out free, and \"you shall not send him away empty-handed\" — you shall furnish him liberally (Heb. ha'aneik ta'anik) from your flock, your threshing floor, your winepress, from what the L-RD your G-d has blessed you with."
+      },
+      {
+        "type": "p",
+        "text": "Hear the echo. Exodus 3:21: lo teilchu reikam — \"you shall not go out empty.\" Deuteronomy 15:13: lo teshalchenu reikam — \"you shall not send him out empty.\" The master is now standing exactly where G-d stood."
+      },
+      {
+        "type": "p",
+        "text": "v.15 — And here is the line to slow down on. Why does the Torah give this command? Not simply, \"remember that you were a slave in Egypt.\" It says: \"You shall remember that you were a slave in the land of Egypt, and the L-RD your G-d redeemed you — therefore I command you this thing today.\""
+      },
+      {
+        "type": "p",
+        "text": "The operative memory is not the slavery. It is the redemption. You are not being told to imitate the slave. You are being told to imitate the Redeemer."
+      },
+      {
+        "type": "p",
+        "text": "v.16–17 — the apparent digression. But if the servant says \"I will not go out from you, for I love you and your household, for it is good for him with you\" — take an awl and pierce his ear at the door, and he shall be your servant forever."
+      },
+      {
+        "type": "p",
+        "text": "Why is this here, in the middle? The text was speaking about gift-giving, detours into the servant who wants to stay, and then returns to gift-giving in verse 18 as though nothing happened."
+      },
+      {
+        "type": "p",
+        "text": "It is not a digression. It is the reason for the gifts. The servant may genuinely not want to leave. Six years of bonds — attachment to a captor, comfort in the known, a status quo that can feel a great deal like love. Israel had exactly this in Egypt, which is why they said \"let us appoint a leader and return to Egypt\" (Numbers 14:4) and wept over the fish, the cucumbers and the melons (Numbers 11:5). Freedom is terrifying because freedom is new. It is starting over with nothing familiar in your hands."
+      },
+      {
+        "type": "p",
+        "text": "v.18 — \"It shall not seem hard in your eyes when you send him away free.\" And in the parallel command about lending, v.10 — \"your heart shall not be grieved when you give to him.\""
+      },
+      {
+        "type": "p",
+        "text": "Now ask: when does the Torah ever command an emotional state? It does not tell you to feel warmly about your mezuzah, or not to mind the holes in your doorpost. Why here?"
+      },
+      {
+        "type": "p",
+        "text": "Because the feeling is the mitzvah. A gift given grudgingly is not a gift; it is a payout. And a payout cannot redeem anybody. The only human being on earth who can break the servant's bond to the master is the master himself — smiling, loading the man's arms, walking him from one side of the divide to the other and saying, here, this is for your new life. That is what makes the crossing survivable. And that is precisely why the Egyptians had to give gladly."
+      },
+      {
+        "type": "p",
+        "text": "2 Corinthians 9:7 — \"G-d loves a cheerful giver\" (Gk. hilaron) — the same theology as Deuteronomy 15:10. Luke 15:22–24 — the father does not merely accept the returning son; he loads him: robe, ring, sandals, feast. The gift is what finally stops the boy from rehearsing his hired-servant speech (15:19)."
+      },
+      {
+        "type": "p",
+        "text": "But hold verse 17 in your hand a moment longer. The awl. The ear. The door. Because there is blood on that door, and we have seen it before."
+      },
+      {
+        "type": "h2",
+        "text": "Part Four — The Door: Blood on the Wood"
+      },
+      {
+        "type": "h3",
+        "text": "1. The first door"
+      },
+      {
+        "type": "p",
+        "text": "Return with me to the night everything began. Exodus 12:7 — take the blood of the lamb and put it \"on the two doorposts and on the lintel of the houses in which they eat it.\" 12:22 — take a bunch of hyssop, dip it in the blood in the basin, and strike the lintel and the two doorposts; \"and none of you shall go out of the door of his house until morning.\" 12:13 — \"the blood shall be a sign for you on the houses where you are; and when I see the blood, I will pass over you.\""
+      },
+      {
+        "type": "p",
+        "text": "Sit with that for a moment. Four details that most of us read past every year:"
+      },
+      {
+        "type": "p",
+        "text": "The blood surrounded the opening. Lintel above. Doorpost right. Doorpost left. And the basin — Hebrew saf, a word that also means threshold — at the feet. Above, on both sides, and below. To leave that house you had to pass through an opening framed in blood on every side. There was no other way out of Egypt. Not one Israelite walked into freedom except through blood."
+      },
+      {
+        "type": "p",
+        "text": "And if you will permit me a drash — hold the picture of a man standing in that doorway. The blood is above his head. It is at his right hand and his left hand. It is at his feet. He is standing inside the shape of the wounds. I will not press that as the plain meaning of the verse. I only ask you never to be able to unsee it."
+      },
+      {
+        "type": "p",
+        "text": "The blood was applied with hyssop. Ezov — a common, low, unimpressive plant. Psalm 51:7 — \"Purge me with hyssop, and I shall be clean.\" And then John 19:29 — at Golgotha they put a sponge on hyssop and lifted it to His mouth. The instrument that applied the blood at the first Pesach reappears in the hand of a soldier at the last one. The Gospel writer chose that word deliberately, and any Messianic Jew who knows Exodus 12 should feel the floor move when he reads it."
+      },
+      {
+        "type": "p",
+        "text": "The blood was a sign for you. Not for G-d — G-d does not need a house number. \"The blood shall be a sign for you.\" The mark was as much for the family trembling inside as for the Judge outside. All night long, the only thing standing between that family and the destroyer was a smear of blood on wood that they could not even see from where they sat. That is faith. Hebrews 11:28 — \"By faith he kept the Passover and sprinkled the blood, so that the Destroyer of the firstborn might not touch them.\""
+      },
+      {
+        "type": "p",
+        "text": "You had to stay inside. \"None of you shall go out of the door of his house until morning.\" Safety was not portable. It was located — under that blood, in that house, with that family. There was no salvation three doors down."
+      },
+      {
+        "type": "h3",
+        "text": "2. What \"Pesach\" actually means"
+      },
+      {
+        "type": "p",
+        "text": "We translate pasach as \"pass over,\" as though G-d skipped the house. But look at Isaiah 31:5 — \"Like birds hovering, so the L-RD of hosts will protect Jerusalem; He will protect and deliver it, He will pasoach and rescue it.\" The word carries the sense of hovering over to shield."
+      },
+      {
+        "type": "p",
+        "text": "Then read Exodus 12:23 again with that in your ears: \"the L-RD will pass over the door (petach), and will not allow the Destroyer to come into your houses to strike you.\""
+      },
+      {
+        "type": "p",
+        "text": "G-d Himself stood in the bloodied doorway. He did not fly past. He planted Himself in the opening, between the destroyer and the family, and He did not move until morning."
+      },
+      {
+        "type": "p",
+        "text": "Brothers and sisters — that is the entire gospel in one verse of Exodus. And when the fullness of time came, He stood in that doorway again, in a body, with wood behind His back and blood running down it, and He did not move."
+      },
+      {
+        "type": "h3",
+        "text": "3. The Lamb at the door"
+      },
+      {
+        "type": "p",
+        "text": "John 1:29 — \"Behold, the Lamb of G-d, who takes away the sin of the world.\" Not a lamb. The Lamb — the one Isaac asked about on Moriah when he said \"where is the lamb?\" and Abraham answered, \"G-d will provide for Himself the lamb\" (Genesis 22:7–8). And Moriah, remember, is the place He would choose (2 Chronicles 3:1) — the same makom our parasha keeps sending us to."
+      },
+      {
+        "type": "p",
+        "text": "1 Corinthians 5:7 — \"For Messiah, our Pesach, has been sacrificed.\" John 19:14 — it was the preparation day of Passover, about the sixth hour, the very hour the lambs were being bound. John 19:33, 36 — they did not break His legs, \"that the Scripture might be fulfilled: 'Not one of His bones shall be broken'\" — quoting Exodus 12:46, the law of the Pesach lamb, and Psalm 34:20. 1 Peter 1:18–19 — \"you were ransomed... not with perishable things such as silver or gold, but with the precious blood of Messiah, like that of a lamb without blemish or spot.\""
+      },
+      {
+        "type": "p",
+        "text": "Weigh that last verse against our parasha. In Deuteronomy 15 the freed servant is loaded with silver and gold. But the silver and gold were never the ransom. The ransom was always blood. The gold is what you carry out; the blood is what gets you out."
+      },
+      {
+        "type": "h3",
+        "text": "4. He is the door"
+      },
+      {
+        "type": "p",
+        "text": "And then He says it Himself. John 10:7, 9 — \"I am the door of the sheep... if anyone enters by Me, he will be saved, and will go in and out and find pasture.\""
+      },
+      {
+        "type": "p",
+        "text": "Hebrews 10:19–20 — \"we have confidence to enter the holy places by the blood of Yeshua, by the new and living way that He opened for us through the curtain, that is, through His flesh.\" A doorway made of flesh, with the blood on it, and we walk through."
+      },
+      {
+        "type": "p",
+        "text": "So the doorframe of Exodus 12 has become a Person. The blood is His. The opening is His body. The command \"do not go out until morning\" becomes \"abide in Me\" (John 15:4). And the morning came on the first day of the week, and the stone was rolled away from another door."
+      },
+      {
+        "type": "h3",
+        "text": "5. The blood that speaks"
+      },
+      {
+        "type": "p",
+        "text": "Genesis 4:10 — Abel's blood cries out from the ground: \"What have you done?\" Blood that accuses. Hebrews 12:24 — we have come \"to Yeshua, the mediator of a new covenant, and to the sprinkled blood that speaks a better word than the blood of Abel.\""
+      },
+      {
+        "type": "p",
+        "text": "The blood on the doorpost is not silent. It is testifying about the household inside it. Abel's blood said guilty. This blood says mine."
+      },
+      {
+        "type": "p",
+        "text": "Exodus 24:8 — Moses takes the blood, sprinkles it on the people and says, \"Behold, the blood of the covenant.\" Matthew 26:28 — He takes the cup and says, \"this is My blood of the covenant, poured out for many for the forgiveness of sins.\" Hebrews 9:19–22 — \"without the shedding of blood there is no forgiveness.\""
+      },
+      {
+        "type": "p",
+        "text": "And at our Seder tables, at that same third cup, we get up and open the door (Malachi 3:1; 4:5–6). We open the door. We of all people should know Who is standing in it. Revelation 3:20 — \"Behold, I stand at the door and knock.\""
+      },
+      {
+        "type": "h3",
+        "text": "6. The mark the destroyer respects"
+      },
+      {
+        "type": "p",
+        "text": "The doorpost mark is not a one-time image. Ezekiel 9:4–6 — before the city falls, a man is sent to put a mark (Heb. tav) on the foreheads of those who sigh and groan over the abominations, and the destroyers are told to touch no one bearing the mark. Revelation 7:3 — \"do not harm the earth... until we have sealed the servants of our G-d on their foreheads.\" Revelation 14:1 — His name on their foreheads."
+      },
+      {
+        "type": "p",
+        "text": "Where Israel once painted the sign on the doorpost of the house, He now writes it on the doorpost of the person. Deuteronomy 6:9 and 11:20 — \"you shall write them on the doorposts of your house.\" The same wood that carried the blood carries the Word. And John 1:14 — the Word became flesh and dwelt among us. Blood and Word on the same beam."
+      },
+      {
+        "type": "h3",
+        "text": "7. And a scarlet cord in a window in Jericho"
+      },
+      {
+        "type": "p",
+        "text": "Do not miss where this sign travels next — because tonight we are praying for the nations."
+      },
+      {
+        "type": "p",
+        "text": "Joshua 2:18–21 — Rahab, a Canaanite woman, is told: bind this scarlet cord in your window, and gather your father, mother, brothers and all your family into your house; whoever goes out into the street, his blood is on his own head, but everyone inside is safe. A crimson sign on the opening of a house, a family gathered inside, and a destroyer passing through the city."
+      },
+      {
+        "type": "p",
+        "text": "She was not Israel. She had never been in Egypt. And the sign worked anyway."
+      },
+      {
+        "type": "p",
+        "text": "Hebrews 11:31; James 2:25 — Rahab commended for faith and for works. Matthew 1:5 — Rahab in the genealogy of Messiah. The Pesach sign was portable to the nations from the very beginning, and the first Gentile to hang it in her window ended up in the family line of the Lamb."
+      },
+      {
+        "type": "h3",
+        "text": "8. Two directions through one door"
+      },
+      {
+        "type": "p",
+        "text": "Now come back to our parasha, to the awl and the ear. Deuteronomy 15:17; Exodus 21:6 — the servant who says \"I love my master, I will not go out free\" is brought to the door, and his ear is pierced against it, and blood is left on the wood."
+      },
+      {
+        "type": "p",
+        "text": "One doorway. Two directions."
+      },
+      {
+        "type": "p",
+        "text": "Out through the blood is Pesach. Back in through the blood is bondage forever. And this is the warning the Messianic community must hear, because it is precisely the warning the Apostles gave:"
+      },
+      {
+        "type": "p",
+        "text": "Galatians 5:1 — \"For freedom Messiah has set us free; stand firm therefore, and do not submit again to a yoke of slavery.\" Galatians 4:9 — \"how can you turn back again to the weak and worthless elemental things, whose slaves you want to be once more?\" 2 Peter 2:20–22 — entangled again and overcome, the last state worse than the first. Hebrews 10:26–29 — the terrifying phrase: to profane \"the blood of the covenant by which he was sanctified.\""
+      },
+      {
+        "type": "p",
+        "text": "The servant standing at that door is not a stranger. He is comfortable. He is loved. He is not being dragged back — he is choosing it, and he is smiling. That is why the gifts have to be given gladly. The only thing that gets a man through the door the right way is the sight of his master's face, glad, loading his arms, saying go and live."
+      },
+      {
+        "type": "h3",
+        "text": "9. The One who chose to stay"
+      },
+      {
+        "type": "p",
+        "text": "And now the reversal that should break us open."
+      },
+      {
+        "type": "p",
+        "text": "Read Exodus 21:5–6 and hear it in Messiah's mouth: \"I love my master, my wife and my children; I will not go out free.\""
+      },
+      {
+        "type": "p",
+        "text": "Psalm 40:6–8 — \"Sacrifice and offering You did not desire; my ears You have opened — dug out (Heb. karita li)... Behold, I have come; in the scroll of the book it is written of me. I delight to do Your will, O my G-d.\" Hebrews 10:5–7 applies that psalm to Messiah entering the world: \"a body You have prepared for Me... behold, I have come to do Your will.\" Isaiah 50:5–6 — \"The L-rd G-D has opened My ear, and I was not rebellious... I gave My back to those who strike.\" Isaiah 52:13 — \"Behold, My Servant.\" Isaiah 53:5 — \"He was pierced for our transgressions.\" Philippians 2:6–8 — He took the form of a servant, Gk. doulos, Heb. eved."
+      },
+      {
+        "type": "p",
+        "text": "The free Son took the servant's place at the door. He was pierced there. He chose to stay a servant forever — so that we could walk out."
+      },
+      {
+        "type": "p",
+        "text": "He is the Lamb whose blood is on the wood. He is the doorway we pass through. He is the eved with the pierced ear who would not go free. And He is the L-RD standing in the opening all night with the destroyer on the other side."
+      },
+      {
+        "type": "p",
+        "text": "Zechariah 12:10 — \"they shall look on Me whom they have pierced, and mourn\" (John 19:37; Revelation 1:7). Zechariah 13:1 — \"On that day a fountain shall be opened for the house of David and the inhabitants of Jerusalem, for sin and for uncleanness.\""
+      },
+      {
+        "type": "p",
+        "text": "The mark of the pierced servant at the doorpost becomes the mark by which the King is finally recognized by His own people. May that day come speedily."
+      },
+      {
+        "type": "h2",
+        "text": "Part Five — The Same Gold, Two Destinies"
+      },
+      {
+        "type": "p",
+        "text": "Now, what happened to the gold the Egyptians gave?"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Exodus 32:2–4 — Aaron says break off the golden rings, and out of Egypt's gold they cast a calf. Egyptian gold, Egyptian imagery, Egyptian theology.",
+          "Exodus 25:1–8; 35:20–29 — the same gold, brought as a freewill offering, becomes the Mishkan: \"let them make Me a sanctuary, that I may dwell among them.\""
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Identical metal. Two destinies. The gifts that redeem you can be melted down into an idol that re-enslaves you, or offered up into a dwelling place for the G-d who freed you. A man can walk out through the blood and still build Egypt in the wilderness with his freedom money."
+      },
+      {
+        "type": "p",
+        "text": "Now read Deuteronomy 12 with this question: why is G-d so relentless about avodah zarah? It is everywhere in this book — in the Ten Commandments, in the rebuke over the golden calf, and here law after law after law: destroy the idols, don't worship G-d by their methods, the false prophet, the family member who entices you, the city that goes astray. Why the obsession?"
+      },
+      {
+        "type": "p",
+        "text": "Because idolatry is a technology of control born of fear. Nearly every ancient pantheon — Egyptian, Canaanite, Norse, Mayan — had fertility gods, because fertility, rain, childbirth and harvest are exactly where human beings have the least control and the most terror. In a world of famine, of childhood mortality as the norm, of women dying in childbirth, the offer is irresistible: scratch the god's back and he will scratch yours. But notice — the worshiper does not love the god at all. He loves the leverage."
+      },
+      {
+        "type": "p",
+        "text": "Monotheism destroys the leverage. If there is one G-d who is the source of everything, there is no lack in Him I could possibly fill, and nothing to barter with. What is left is relationship. Gifts become what a child's crayon card is to his mother: worthless as a commodity, everything as a relationship."
+      },
+      {
+        "type": "p",
+        "text": "Watch how the chapter is built:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "12:2–4 — Destroy their high places, altars, pillars and asherim. \"You shall not worship the L-RD your G-d in that way.\"",
+          "12:5–7 — Instead, go to the place the L-RD your G-d will choose, bring your offerings, eat them there before Him, and rejoice (u'smachtem) in everything you put your hand to.",
+          "12:12, 18–19 — And rejoice with your sons and daughters, your servants and maidservants, and the Levite in your gates who has no portion with you.",
+          "12:20–25 — You may eat meat wherever you live; simply pour the blood out on the ground.",
+          "12:29–31 — And do not inquire, \"how did these nations serve their gods, that I may do likewise.\""
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Why all these apparent detours? Same answer as chapter 15 — they are not detours at all."
+      },
+      {
+        "type": "p",
+        "text": "A private backyard altar is not devotion; it is convenience. An altar in my domain, on my schedule, for my requests, is a household appliance for managing G-d. An altar is not a toaster. The pilgrimage to the place He chooses costs me something, and therefore it cannot be a transaction. And the joy is commanded — again, the psychological state is the mitzvah — because worship that is not joy is only leverage in a nicer robe. And that joy must be shared with servants and with the landless Levite, because if G-d is one, then His other children are in the room with me."
+      },
+      {
+        "type": "p",
+        "text": "And then the meat: you may eat it at home, but do not call your barbecue an act of worship. When our appetites and our need for control get braided together with our religion, we are already standing at the edge of avodah zarah."
+      },
+      {
+        "type": "p",
+        "text": "Romans 8:15 — \"you did not receive a spirit of slavery to fall back into fear, but the Spirit of adoption, by whom we cry, 'Abba, Father.'\" That is Deuteronomy 12 in a single verse: fear versus sonship. 1 Thessalonians 1:9 — \"you turned to G-d from idols to serve the living and true G-d.\" Psalm 115:4–8 — \"those who make them become like them.\""
+      },
+      {
+        "type": "p",
+        "text": "And the place He will choose: John 2:19–21 — \"destroy this temple and in three days I will raise it up\" — He was speaking of the temple of His body. John 4:21–24 — the hour is coming when true worshipers will worship the Father in spirit and in truth. 1 Corinthians 3:16 and Ephesians 2:19–22 — we are being built together into a dwelling place for G-d in the Spirit. Egypt's gold becomes a sanctuary; the redeemed become the sanctuary."
+      },
+      {
+        "type": "h2",
+        "text": "Part Six — The Empathy Problem"
+      },
+      {
+        "type": "p",
+        "text": "Now to the hardest question of the night."
+      },
+      {
+        "type": "p",
+        "text": "The Exodus is invoked again and again as the engine of empathy: Exodus 22:20; 23:9; Leviticus 19:33–34; Deuteronomy 10:18–19; 15:15; 16:12; 24:17–22. We are commanded to treat the vulnerable a certain way because we know how it feels."
+      },
+      {
+        "type": "p",
+        "text": "But we never felt it. And here is the sharper problem: neither did most of the people Moses was addressing. Everyone who experienced Egypt firsthand had died in the wilderness (Numbers 14:29–33). Moses is standing in front of the children of slaves telling them, \"you were a slave in Egypt.\" And Deuteronomy 5:3 says it outright: \"Not with our fathers did the L-RD make this covenant, but with us, with all of us here alive today.\""
+      },
+      {
+        "type": "p",
+        "text": "So is G-d limiting empathy to people who have suffered the identical thing? Is compassion available only to those with matching biographies? The text gives us five answers."
+      },
+      {
+        "type": "p",
+        "text": "1. Empathy is grounded in imitation, not in matching résumés. Go back to Deuteronomy 15:15. The clause carrying the weight is \"and the L-RD your G-d redeemed you.\" You are not being asked to reach back for the sensation of the whip. You are being asked to look at what your Redeemer did for you and do that same thing in your own doorway. You do not need to have been a slave in order to imitate a Redeemer whose redemption you are currently living inside."
+      },
+      {
+        "type": "p",
+        "text": "Ephesians 5:1–2 — \"Be imitators of G-d, as beloved children, and walk in love, as Messiah loved us and gave Himself up for us.\" Luke 6:36 — \"Be merciful, even as your Father is merciful.\" Colossians 3:13 — \"as the L-rd has forgiven you, so you also must forgive.\" John 13:34 — \"as I have loved you.\" The pattern is never \"since you felt what he feels\"; it is always \"as He did to you, do to them.\""
+      },
+      {
+        "type": "p",
+        "text": "2. Empathy is rehearsed until it is owned. The Mishnah teaches that in every generation a person is obligated to see himself as though he personally came out of Egypt (Pesachim 10:5). Deuteronomy 6:20–23 — when your child asks what these testimonies mean, you answer in the first person: \"we were slaves to Pharaoh in Egypt, and the L-RD brought us out.\" The Seder is deliberate technology for building a memory you did not personally acquire."
+      },
+      {
+        "type": "p",
+        "text": "Luke 22:19; 1 Corinthians 11:24–26 — \"do this in remembrance of Me... you proclaim the L-rd's death until He comes.\" Not nostalgia. Participatory memory, at a table, with bread and cup — exactly like the Seder it came out of."
+      },
+      {
+        "type": "p",
+        "text": "3. Empathy follows the deed as often as it precedes it. Deuteronomy 15:7–11 — open your hand wide, for \"the poor will never cease from the land.\" You cannot open your hand at a distance. The Torah commands proximity and action, and the heart is schooled by the hand. That is why it dares to command the feeling as well (15:10, 15:18): a man who gives generously long enough will eventually give gladly."
+      },
+      {
+        "type": "p",
+        "text": "James 2:15–16; 1 John 3:17–18 — \"let us not love in word or talk but in deed and in truth.\""
+      },
+      {
+        "type": "p",
+        "text": "4. Empathy is a matter of identity, not autobiography. Whether or not you remember Egypt, you are a redeemed slave. Colossians 1:13 — He \"has delivered us from the domain of darkness and transferred us into the kingdom of His beloved Son.\" Titus 3:3 — \"we ourselves were once foolish, disobedient, led astray, slaves to various passions.\" 1 Peter 2:9–10 — \"once you were not a people, but now you are G-d's people.\" Every believer among the nations has an Exodus testimony, whether or not he has a Passover ancestry — and every one of them came out through the same blood on the same door."
+      },
+      {
+        "type": "p",
+        "text": "5. And where human empathy fails, G-d supplied it by experience — His own."
+      },
+      {
+        "type": "p",
+        "text": "Hebrews 4:15 — \"we do not have a high priest who is unable to sympathize (Gk. sumpatheō) with our weaknesses, but one who in every respect has been tempted as we are, yet without sin.\" Hebrews 2:14–18 — He shared in flesh and blood \"that through death He might destroy the one who has the power of death... and deliver all those who through fear of death were subject to lifelong slavery... therefore He had to be made like His brothers in every respect... He is able to help those who are being tempted.\" 2 Corinthians 1:3–4 — He comforts us in all our affliction \"so that we may be able to comfort those who are in any affliction, with the comfort with which we ourselves are comforted by G-d.\""
+      },
+      {
+        "type": "p",
+        "text": "G-d never asked us to feel with people across a distance He was unwilling to close Himself. Empathy, at its source, is incarnational. And Exodus 23:9 names it exactly: \"you know the soul of the stranger\" — atem yeda'tem et nefesh ha-ger. Not \"you know his circumstances.\" You know his soul."
+      },
+      {
+        "type": "h2",
+        "text": "Part Seven — The Master Who Did Not Send His Servants Out Empty"
+      },
+      {
+        "type": "p",
+        "text": "Set Deuteronomy 15:13–14 beside this:"
+      },
+      {
+        "type": "p",
+        "text": "Psalm 68:18 / Ephesians 4:7–8 — \"When He ascended on high, He led captivity captive, and gave gifts to men.\" That is ha'aneik ta'anik — the ascending Master furnishing His freed servants liberally. Luke 24:49 — \"stay in the city until you are clothed with power from on high.\" He would not send them out empty-handed. John 14:16–18 — \"I will not leave you as orphans.\" Acts 2:33, 38 — He \"received from the Father the promise of the Holy Spirit and poured out this that you yourselves are seeing and hearing\"; \"you shall receive the gift of the Holy Spirit.\" Romans 8:23 — the Spirit as firstfruits; Ephesians 1:13–14 — the down payment of our inheritance. The gift in the freed servant's hands is the pledge that the inheritance is real."
+      },
+      {
+        "type": "p",
+        "text": "And the parasha itself makes this connection for us. Look at the order in Re'eh: the freed servant with his gifts (15:12–18) → Pesach (16:1–8) → Shavuot (16:9–12), where you bring \"a freewill offering according as the L-RD your G-d has blessed you\" — the identical phrase used of the servant's gifts in 15:14 — and \"you shall remember that you were a slave in Egypt\" (16:12) → Sukkot (16:13–15), \"you shall rejoice — you, your son, your daughter, your servant, your maidservant, the Levite, the stranger, the orphan and the widow.\""
+      },
+      {
+        "type": "p",
+        "text": "Blood on the door → freedom → gifts → Shavuot → rejoicing with the stranger. That is the book of Acts, in order, seven weeks after the Lamb."
+      },
+      {
+        "type": "h2",
+        "text": "Part Eight — And the Nations"
+      },
+      {
+        "type": "p",
+        "text": "Do not miss the direction the empathy runs."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Exodus 12:38 — \"a mixed multitude went up with them.\" Some of the Egyptians who handed over their gold walked out with Israel — which means some of them were standing under that blood too. The firstfruits of the nations came out of Egypt in the same crowd, through the same door.",
+          "Exodus 12:48–49 — the stranger who joins himself may keep the Pesach: \"there shall be one law for the native and for the stranger who sojourns among you.\" The door was never for one people only.",
+          "Deuteronomy 23:7 — \"You shall not abhor an Egyptian, because you were a sojourner in his land.\" The redeemed are commanded not to hate the house of their bondage.",
+          "Isaiah 19:19–25 — \"In that day there will be an altar to the L-RD in the midst of the land of Egypt... and the L-RD will make Himself known to Egypt... Blessed be Egypt My people, and Assyria the work of My hands, and Israel My inheritance.\"",
+          "Isaiah 56:6–7 — the foreigners who join themselves to the L-RD, \"for My house shall be called a house of prayer for all peoples\" — quoted by Yeshua in Mark 11:17. This is our charter verse tonight.",
+          "Ephesians 2:11–13, 19 — \"you who once were far off have been brought near by the blood of Messiah... no longer strangers and sojourners, but fellow citizens with the saints and members of the household of G-d.\" Brought near by the blood — and brought inside the door.",
+          "Revelation 5:9 — \"by Your blood You ransomed people for G-d from every tribe and language and people and nation.\"",
+          "Numbers 29:12–34 — the seventy bulls of Sukkot for the seventy nations; Zechariah 14:16 — all the nations coming up year after year to worship the King; Revelation 21:24–26 — the kings of the earth bringing their glory into the city. The wealth of the nations, given gladly, ends up in the sanctuary. It always did."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "So hear the missions thesis of this teaching: G-d's method for freeing captives is not a raid. It is a lamb, a door, and a gift given gladly by a Master who walks them out Himself. Our task among the nations is to hold out the hands of a Redeemer, not the hands of a creditor — to point every people on earth to the one bloodied doorway — and never to leave anyone empty-handed, whether that means the gospel, dignity, bread, or simply our own presence beside them."
+      },
+      {
+        "type": "h2",
+        "text": "Questions for Discussion"
+      },
+      {
+        "type": "p",
+        "text": "1. Why does \"they will leave with great wealth\" console Abraham? Genesis 14:22–23 shows Abraham refusing plundered wealth; Genesis 12:16–20 shows him leaving Egypt loaded with gifts and sent away. Is G-d consoling him about the suffering, or telling him something about how his children will exit? What is the difference between a slave who escapes and an heir who is released? (Galatians 4:7)"
+      },
+      {
+        "type": "p",
+        "text": "2. Why must the Egyptians give willingly? Why not raid the houses during the darkness? What kind of nation would Israel have been if its first free act was a theft? What does it do to a former slave to have his master's own hand load his arms? (Philippians 2:6; Ephesians 2:8–9; Romans 6:23)"
+      },
+      {
+        "type": "p",
+        "text": "3. Why did the blood have to be on the door — and why was it a sign \"for you\"? G-d knew which houses were Israelite. So who was the mark for? What does it mean that safety was located rather than portable (Exodus 12:22), and what is our equivalent of \"do not go out until morning\"? (John 15:4; Hebrews 10:19–22)"
+      },
+      {
+        "type": "p",
+        "text": "4. One doorway, two directions. Israel went out through the blood; the servant of Deuteronomy 15:17 may come back in through it. Where are we tempted to walk back through the door — comfortable, loved, and smiling? (Galatians 4:9; 5:1; Numbers 11:5)"
+      },
+      {
+        "type": "p",
+        "text": "5. How does gift-giving break the servant's bond to his master? Who is the only person who can authorize the servant to leave without guilt? Why is the \"he wants to stay\" passage placed in the middle of the gift-giving laws rather than after them?"
+      },
+      {
+        "type": "p",
+        "text": "6. Why does the Torah command a psychological state? Deuteronomy 15:10 and 15:18 command the heart; Deuteronomy 12:7, 12, 18 command joy. Where else does Scripture command an emotion, and why? (2 Corinthians 9:7; Philippians 4:4) If the gift is grudging, what has the servant actually received?"
+      },
+      {
+        "type": "p",
+        "text": "7. On empathy — the central question. None of us was in Egypt; neither was the generation Moses addressed. So what exactly is being remembered? Say it out loud: is the Torah asking us to identify with the slave, or with the Redeemer? And what does Hebrews 4:15 add that no amount of remembering could ever supply?"
+      },
+      {
+        "type": "p",
+        "text": "8. Personal application. Where in our own practice — a habit, an object, a formula, a spiritual technique — are we reaching for a measure of control instead of reaching for our Father? Does it drive me toward direct relationship with Him, or does it let me avoid it? (Romans 8:15; Hebrews 4:16; 10:19–22)"
+      },
+      {
+        "type": "h2",
+        "text": "Transition into Prayer for the Nations"
+      },
+      {
+        "type": "p",
+        "text": "Read aloud Exodus 12:13, then Isaiah 56:6–7, then Ephesians 4:7–8, then Deuteronomy 15:13–15. Pray in five movements:"
+      },
+      {
+        "type": "p",
+        "text": "1. At the door — thank Him for the blood that is our sign, and for the Pesach who stood in the opening between us and the destroyer and did not move. Exodus 12:23; Isaiah 31:5; John 10:9."
+      },
+      {
+        "type": "p",
+        "text": "2. For captives to be released — those held by fear, addiction, debt bondage, trafficking, and by the old gods of their culture. Isaiah 61:1; Luke 4:18."
+      },
+      {
+        "type": "p",
+        "text": "3. That they would not go out empty-handed — for the Spirit poured out on peoples now hearing the gospel; for dignity, provision and inheritance to accompany their freedom. Acts 2:17; Ephesians 1:13–14."
+      },
+      {
+        "type": "p",
+        "text": "4. For scarlet cords in windows across the nations — for whole households gathered in, as Rahab gathered hers; for the peoples still outside the door. Joshua 2:18–19; Acts 16:31; Revelation 5:9."
+      },
+      {
+        "type": "p",
+        "text": "5. For the house of prayer for all peoples — that Israel and the nations together would come to the place He chose, in His Son, and that the day would come when they look on Him whom they pierced. Zechariah 12:10; 13:1; Isaiah 19:24–25; Revelation 7:9–10."
+      },
+      {
+        "type": "p",
+        "text": "Closing charge: The greatness of a master is measured by whether he can make his servant great too. Ours was pierced at the door so that we could walk through it — He stood in that doorway all night long — and He did not send us out empty-handed."
+      },
+      {
+        "type": "p",
+        "text": "With gratitude to the teachers of Aleph Beta, whose studies on this parasha shaped several of the textual questions raised here."
+      },
+      {
+        "type": "h2",
+        "text": "Scripture Index"
+      },
+      {
+        "type": "p",
+        "text": "Torah: Genesis 3:6 · 4:10 · 12:10–20 · 14:21–23 · 15:7 · 15:13–14 · 22:7–8. Exodus 3:21–22 · 10:22–23 · 11:2–3 · 12:7 · 12:13 · 12:22–23 · 12:35–36 · 12:38 · 12:46 · 12:48–49 · 21:5–6 · 22:20 · 23:9 · 24:8 · 25:1–8 · 32:2–4 · 35:20–29. Leviticus 19:33–34. Numbers 9:12 · 11:5 · 14:4 · 14:29–33 · 29:12–34. Deuteronomy 5:3 · 6:9 · 6:20–23 · 10:18–19 · 11:20 · 12:2–7 · 12:12 · 12:18–19 · 12:20–25 · 12:29–31 · 15:7–11 · 15:10 · 15:12–18 · 15:17 · 16:1–8 · 16:9–12 · 16:13–15 · 23:7 · 24:17–22."
+      },
+      {
+        "type": "p",
+        "text": "Prophets & Writings: Joshua 2:18–21. 2 Chronicles 3:1. Psalm 34:20 · 40:6–8 · 51:7 · 68:18 · 115:4–8. Isaiah 19:19–25 · 31:5 · 50:5–6 · 52:13 · 53:5 · 53:7 · 56:6–7 · 61:1. Ezekiel 9:4–6 · 36:26. Zechariah 12:10 · 13:1 · 14:16. Malachi 3:1 · 4:5–6."
+      },
+      {
+        "type": "p",
+        "text": "Gospels & Acts: Matthew 1:5 · 26:28. Mark 11:17. Luke 4:18 · 6:36 · 15:19 · 15:22–24 · 22:19–20 · 24:49. John 1:14 · 1:29 · 2:19–21 · 4:21–24 · 10:7 · 10:9 · 13:34 · 14:16–18 · 15:4 · 19:14 · 19:29 · 19:33 · 19:36 · 19:37. Acts 2:17 · 2:33 · 2:38 · 16:31 · 17:22–31."
+      },
+      {
+        "type": "p",
+        "text": "Epistles & Revelation: Romans 5:5 · 6:23 · 8:15 · 8:15–17 · 8:23. 1 Corinthians 3:16 · 5:7 · 8:4–6 · 11:24–26. 2 Corinthians 1:3–4 · 9:7. Galatians 4:1–9 · 5:1. Ephesians 1:13–14 · 2:8–9 · 2:11–13 · 2:19–22 · 4:7–8 · 5:1–2. Philippians 2:6–8 · 4:4. Colossians 1:13 · 3:13. 1 Thessalonians 1:9 · 5:16–18. Titus 3:3. Hebrews 2:14–18 · 4:15–16 · 6:6 · 9:19–22 · 10:5–7 · 10:19–22 · 10:26–29 · 11:28 · 11:31 · 12:24. James 2:15–16 · 2:25. 1 Peter 1:2 · 1:18–19 · 2:9–10. 2 Peter 2:20–22. 1 John 3:17–18. Revelation 1:7 · 3:20 · 5:9 · 7:3 · 7:9–10 · 14:1 · 21:24–26."
+      },
+      {
+        "type": "p",
+        "text": "Rabbinic: Mishnah, Pesachim 10:5."
+      }
+    ]
+  },
+  {
     slug: 'ghosts-of-gilead',
     title: 'The Ghosts of Gilead',
     subtitle: 'How the Torah Ends with Brothers Learning to Carry One Another',
