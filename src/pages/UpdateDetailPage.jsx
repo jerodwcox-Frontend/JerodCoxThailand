@@ -18,9 +18,11 @@ export default function UpdateDetailPage() {
         <h1>{update.title}</h1>
 
         <article className="update-body">
-          {update.body.map((block, i) => (
-            <p key={i}>{block.text}</p>
-          ))}
+          {update.body.map((block, i) => {
+            if (block.type === 'h2') return <h2 key={i}>{block.text}</h2>;
+            if (block.type === 'h3') return <h3 key={i}>{block.text}</h3>;
+            return <p key={i}>{block.text}</p>;
+          })}
 
           {update.prayerPoints && (
             <div className="prayer-points">
