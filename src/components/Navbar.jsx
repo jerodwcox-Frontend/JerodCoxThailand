@@ -38,9 +38,14 @@ export default function Navbar() {
           ))}
         </nav>
 
-        <Link className="btn btn-primary nav-give" to="/support">
-          Support the Mission
-        </Link>
+        <div className="nav-right">
+          <Link className="nav-avatar" to="/about" aria-label="About Jerod Cox" onClick={() => setOpen(false)}>
+            <img src="/images/jerod.jpg" alt="Jerod Cox" />
+          </Link>
+          <Link className="btn btn-primary nav-give" to="/support">
+            Support the Mission
+          </Link>
+        </div>
       </div>
     </header>
   );
