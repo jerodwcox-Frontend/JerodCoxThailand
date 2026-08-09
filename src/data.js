@@ -349,6 +349,118 @@ export const updates = [
     },
   },
   {
+    "week": 46,
+    "slug": "week-46-rainy-season-readiness-and-remembering-the-body",
+    "title": "Rainy Season, Readiness, and Remembering the Body",
+    "excerpt": "Sit back, grab some Java, and listen. This week: how people actually receive truth, the darkness beneath a beautiful country, and why nobody has ever been argued into loving G-d.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Shalom from Thailand,"
+      },
+      {
+        "type": "p",
+        "text": "Sit back, grab some Java, and listen to my musing. I know I don't want to keep starting every update the same way — \"I was thinking this week...\" — but here's the honest truth behind it: every morning I get up and spend at least the first hour of my day just talking to G-d, and somehow, almost every week, a specific thought or concept ends up camping out on my soul until I actually deal with it. This week it was something a little different, though it's the kind of thing that's relevant no matter where a person happens to be standing."
+      },
+      {
+        "type": "p",
+        "text": "I've been thinking about how people actually receive truth. You ever notice that good defense attorneys, good debaters, they don't usually win because they've got the sharpest facts? They win because they know how to connect with whoever's listening. They're not talking to a jury of robots. They're talking to people — people who've had a bad week, people who are tired, people who are watching your face as much as they're hearing your words."
+      },
+      {
+        "type": "p",
+        "text": "That's had me thinking a lot about sharing the Gospel here in Thailand."
+      },
+      {
+        "type": "p",
+        "text": "Let me be honest with you, though — I think I've spent way too much of my life trying to win arguments instead of trying to love people. I can quote the verse. I can build the argument. I can back somebody into a corner with logic until they don't have a comeback left, and for a long time I actually thought that was victory. But sitting with G-d this week, He kept bringing me back to one thought: nobody has ever been argued into loving Him. Not one single person, ever. You can argue somebody into agreeing with a fact — though even that's gotten harder in a world this relativistic, and especially here in Thailand, where \"fact\" often just means whatever feels true to a person in the moment. But you cannot argue anyone into falling in love with a Person. And Y'shua was never a fact I'm supposed to be defending. He's a Person I'm supposed to be introducing."
+      },
+      {
+        "type": "p",
+        "text": "I don't say that to sound like I've got some deep spiritual insight — honestly, it's more that it convicts me, and not in a comfortable way. I know exactly how easy it is for me to walk away from a conversation here feeling pretty good about myself, like I said all the right things, while the person standing in front of me just felt handled instead of loved. That's a hard thing to admit about yourself. That's not evangelism, that's just my ego hiding behind a Bible verse. Paul doesn't really leave me anywhere to hide on this one — if I've got the whole Bible memorized and I don't have love, I'm not just less effective, I'm nothing. A noisy gong. And if I'm honest, that's probably been me more times than I'd like to count. I don't want to be that anymore. Before I ever get to the Gospel, before a single verse comes out of my mouth, I want people here to feel like G-d actually saw them first. I'm still learning, pretty slowly, how to get out of the way long enough for that to happen."
+      },
+      {
+        "type": "p",
+        "text": "Thai culture makes this even more obvious to me. People here are so warm, so polite, so non-confrontational. You can share the whole Gospel and get a beautiful, kind smile back — and nothing has moved. Nothing has broken. So I'm learning, slowly, painfully, that this isn't about my presentation. It's about sitting long enough to actually listen. It's about asking a real question and shutting my mouth long enough to hear the real answer. And more than anything, it's about admitting I cannot open a single heart. Only the Ruach HaKodesh can do that. I can plant. I can water. I am not in charge of the harvest, and honestly? That's a relief."
+      },
+      {
+        "type": "p",
+        "text": "Then this week something happened that I still haven't been able to shake. A 17-year-old Thai girl, Tunchanok Donhomla, was murdered in Pattaya. Her body was found stuffed inside a suitcase. An Australian man has been charged — police say he was seen leaving his hotel with luggage matching the case, before it turned up dumped near the railway tracks. I'm not going to repeat every detail floating around online because some of it is just speculation. But even without the extra details, it's almost too heavy to hold."
+      },
+      {
+        "type": "p",
+        "text": "Here's what got me, though, and it's not even the crime itself — it's her. Everybody wants to belong somewhere. Everybody wants to feel like they matter to somebody. And from what little I know of her situation, she was a kid looking for a way to make some money, probably looking for the same thing every person on this planet is quietly looking for — to matter, to be wanted, to be somebody's someone. That's not a Thailand thing. That's every human heart I've ever met, including my own. And evil knows that about us. It knows exactly where that ache is, and it knows how to dress itself up as an opportunity right when someone's most hungry for significance."
+      },
+      {
+        "type": "p",
+        "text": "So where is G-d in a story like this? I'll be honest, that question sat heavy on me for a couple of days before anything settled. But here's what I keep coming back to. He's in the fact that this didn't stay hidden. An arrest was made. A name was attached to it. Scripture tells us nothing covered up stays covered up forever — what's done in secret eventually gets dragged into the light — and even in a broken justice system in a country that isn't mine, that promise held true this time. He's also in the fact that I can't shake this. That gut-level horror I feel reading about her — that's not nothing. That's His image still stamped on me, on you, on every person reading this, refusing to let us shrug at evil like it's just how the world works. A world with no G-d in it wouldn't ache like this. Rabbi Myles Weiss has a phrase for his show that I've been chewing on all week — finding \"the hope behind the headlines.\" I think that's actually a discipline, not just a nice phrase. It means looking at a story like this and refusing to stop at the tragedy, because the tragedy was never the whole story G-d was telling. Somewhere in this, He's calling people like me to pray harder for the vulnerable kids in this city looking for exactly what she was looking for. He's calling this church, and maybe you reading this right now, to actually do something instead of just feeling something."
+      },
+      {
+        "type": "p",
+        "text": "This didn't happen somewhere far away that I read about over coffee and forgot by dinner. This happened in Thailand — the Thailand everybody back home pictures as beaches and pad thai and cheap flights, the \"cool\" place, the bucket-list place. Thousands of Christians fly through here every single year on their way to somewhere else, snap their pictures, post their stories, and never once ask what's happening to the girl serving their table or the kid selling flowers at the red light. We walk right past lost souls like it's nothing. Like they're scenery. And that wrecks me, because she wasn't scenery. Tunchanok wasn't a footnote in somebody's vacation. She was a person G-d knit together on purpose, and somewhere along the way this whole world decided she was disposable enough to end up zipped inside a suitcase by the train tracks."
+      },
+      {
+        "type": "p",
+        "text": "I keep sitting with that. Evil doesn't announce itself, you know? It never does. It slides in wearing money, wearing pleasure, wearing whatever secrecy it needs that day, and it just takes whatever it wants while G-d gets shoved out of the room entirely. But here's what I have to believe, because I don't know how to keep doing this work otherwise — He was in that room. The whole time. Even in that hotel. Even in that suitcase. He was grieving her right alongside every one of us who's reading this with a knot in our stomach, and He was already moving to drag the truth out into the light where it couldn't hide anymore. I don't say that to tie a bow on something that doesn't deserve one. I say it because it's the only thing I've got steady enough to hold onto tonight, and maybe you need it steady under your feet too."
+      },
+      {
+        "type": "p",
+        "text": "I'll be honest, this sent me down a rabbit trail this week reading about why the human brain chases novelty the way it does — how something new lights up the brain's reward signal, and how that same signal fades the moment the thing becomes familiar, so the flesh just keeps reaching for one more new thing to feel anything at all. There's actually a name researchers use for part of it. But I closed the laptop and just sat there thinking — we didn't need a study for this. Solomon told us three thousand years ago. He chased down every pleasure his eyes wanted and called all of it vapor. Chasing wind. That's what unrestrained desire always turns into — a treadmill that needs more and more and never once arrives. James doesn't soften it either: desire, when it has conceived, gives birth to sin, and sin, when it's fully grown, brings forth death. Not \"might.\" Brings forth death. A suitcase by the railway tracks is what that verse looks like when nobody stops it in time. That's not a theory to me anymore. That's twenty minutes from where I'm sitting right now."
+      },
+      {
+        "type": "p",
+        "text": "Thailand is beautiful. I mean that. The people are some of the kindest I've ever met in my life. And I think that's exactly why it's so easy to miss the darkness underneath it. A gorgeous place can still be full of broken people. A peaceful smile can still be sitting directly on top of unbearable pain. Thailand doesn't need more tourists. It doesn't need more well-meaning teachers, more programs, more systems. Thailand needs Y'shua. And can I just say — so do I. So does every single person reading this. Jeremiah said the heart is deceitful above all things. That's not a Thailand problem. That's not an Australian tourist problem. That's a human problem, and there is exactly one cure for it, and His blood was shed outside Jerusalem two thousand years ago."
+      },
+      {
+        "type": "p",
+        "text": "Okay — lighter note, because I need one and you probably do too. Rainy season is officially, ridiculously real now."
+      },
+      {
+        "type": "p",
+        "text": "A friend visited during a light shower in hot season and was convinced he'd experienced rainy season. He had experienced nothing. This is different. It doesn't rain here. It opens up. Streets turn into rivers in minutes. You step outside and you might as well be wading through a small lake. I've learned you never leave the house in Bangkok without an umbrella, and even then the rain half the time comes in sideways and laughs at your umbrella. You can do everything right and still get soaked through. Honestly, it's become a little parable for me — the mission field asks you to adjust faster than you're ever comfortable with. You get ready, you walk out anyway, and you let G-d handle the rest."
+      },
+      {
+        "type": "p",
+        "text": "Last thing. Something came up at the international church I've been attending. They'd been using plain grocery-store bread for communion, and it didn't seem to register with the missionary leading it that the symbolism mattered. Now — if this were some remote village with no access to anything else, I'd understand completely. Use what you have and teach the meaning behind it. But this is Bangkok. There's a synagogue here. There's a Jewish quarter. The proper elements are available. And Scripture uses leaven as a picture of sin over and over again — so when Y'shua took unleavened bread, broke it, and said \"this is My body, broken for you,\" I don't think that detail was decoration. I think it was deliberate."
+      },
+      {
+        "type": "p",
+        "text": "I was asked to help fix it, so next week I'm the one bringing the elements. My heart isn't to turn it into some empty ritual or performance — G-d forbid, that would be missing the whole point too. My hope is just that it slows the room down enough for everyone to actually remember what we're doing at that table. The bread and the cup don't save anybody. They never did. But they keep pointing, every single time, back to the only One who does."
+      },
+      {
+        "type": "p",
+        "text": "And weirdly, it all tied together for me this week. The Gospel was never about having the right words — it's about love that actually sees a person. The darkness in this world isn't a theory — it's a suitcase by the railway tracks. Rainy season keeps teaching me to get ready before I walk out the door. And communion keeps dragging my eyes back to the center of everything — the broken body and the shed blood of Y'shua HaMashiach."
+      },
+      {
+        "type": "p",
+        "text": "Would you pray for me? Not for my words to be sharper. Pray that I'd love before I argue, listen before I speak, and that this whole nation — starting with my own heart first — would taste and see that Adonai is good."
+      },
+      {
+        "type": "p",
+        "text": "Todah rabah. Shalom to you all."
+      },
+      {
+        "type": "p",
+        "text": "To those of you who already pray, encourage, and support this ministry, thank you. I truly cannot express how grateful I am for each of you. Your partnership allows me to continue serving here and investing in relationships that often take time to develop."
+      },
+      {
+        "type": "p",
+        "text": "And for those who may not be able to give financially, please continue praying. Some of the most important things happening over here are the things nobody sees."
+      }
+    ],
+    "prayerPoints": [
+      "Please pray for continued provision, remote work opportunities, and monthly support so that I can remain here, continue studying Thai, and keep building relationships for the sake of the Gospel.",
+      "Please continue to pray for Thailand. Pray that the L-rd would help me speak the Gospel clearly, but also with wisdom and compassion. Pray that I would not merely have the right answers, but that I would learn how to connect with people in a way they can truly hear.",
+      "Please pray for open hearts among the Thai people I meet in daily life, language study, church, and ordinary conversations around Bangkok. Pray that seeds already planted would continue to grow, and that the Ruach HaKodesh would prepare hearts long before I ever speak.",
+      "Please pray for the international fellowship I have been attending, especially as we seek to treat communion with greater reverence and understanding. Pray that the L-rd's Table would not become routine, but would point every believer back to the broken body and shed blood of Y'shua.",
+      "Please pray for protection, wisdom, and discernment during rainy season. Travel around Bangkok becomes more difficult when the streets flood, and even simple daily tasks can take much longer."
+    ],
+    "closing": {
+      "text": "Thank you for standing with me as together we seek to see the Gospel carried to places where it is still rarely heard and to see local believers equipped to bring that message to their own families, villages, and communities.",
+      "signoff": "Until all have heard,",
+      "signature": "Jerod"
+    }
+  },
+  {
     week: 45,
     slug: 'week-45-soccer',
     title: 'Soccer',
