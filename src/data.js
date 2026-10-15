@@ -16,7 +16,7 @@ export const support = {
   zelle: 'jerodwcox@yahoo.com',
   mail: ['522 Rifle Way', 'Broomfield, CO 80020'],
   throughRoehIsrael: 'https://roehisrael.org',
-  goal: 'Currently praying for 22 people willing to commit to giving $100 each month.',
+  goal: 'Currently praying for 19 people willing to commit to giving $100 each month.',
 };
 
 export const remoteWork = {
