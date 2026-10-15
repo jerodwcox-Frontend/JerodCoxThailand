@@ -30,6 +30,48 @@ export const remoteWork = {
 
 export const updates = [
   {
+    week: 51,
+    slug: 'week-51-have-i-given-enough',
+    title: "Have I Given Enough?",
+    excerpt:
+      "I'm writing this on Yom Kippur, the day that has always asked \"Have I given enough?\" — the same question I hear from Thai friends earning merit. And I need to say plainly: I'm done counting converts.",
+    body: [
+      { type: 'p', text: "Shalom everyone," },
+      { type: 'p', text: "As I mentioned in an earlier update, Thai culture is not in a hurry. The spirit of ไม่เป็นไร (mai pen rai, \"never mind, it's no big deal\") runs through everything here. I think it's part of why Thailand was never colonized and rarely finds itself in all-out war. Rather than take a hard stand, they give a little, then a little more, then a little more." },
+      { type: 'p', text: "Unfortunately, the same pattern shows up spiritually: people end up making a decision through their indecision. When I ask those who are earning merit whether they have given enough to make a difference in their own lives or their loved ones' lives, they often admit they don't feel satisfied. Yet they don't want to make a spur-of-the-moment decision to follow Y'shua, because they don't see how it would be any different from anyone else's religion." },
+      { type: 'h2', text: "Have I Given Enough?" },
+      { type: 'p', text: "I'm writing this on Yom Kippur, and that question lands differently today. \"Have I given enough?\" is the question the Day of Atonement has always asked, and the honest answer is the same in Thailand as in Jerusalem: no, we never have. That is exactly what makes Messiah different from one more religion. He isn't a little more merit added to the pile; His one offering finished what our giving never could (Heb 10:11-14). Israel was called to be a light to the nations (Isa 49:6), and the good news is to the Jew first and also to the nations (Rom 1:16). As a Messianic believer, I don't see those as competing callings. It's the same light, and it's why I'm here." },
+      { type: 'h2', text: "A Little at a Time" },
+      { type: 'p', text: "On the language side, I've been interacting with an Aussie, Stu Jay Raj, who teaches Thai from a Thai mindset. My wife says what he points out about how Thai gets taught is exactly right. The funny thing is that this is how Thai people do everything. Nothing here happens in a single leap. It is absorbed a little at a time, in relationship." },
+      { type: 'h2', text: "Not Counting" },
+      { type: 'p', text: "That brings me to something I need to say plainly. Lately I've felt pressure about numbers, about how many converts I can report, and under that pressure I let it creep into how I talked about this work. That isn't what I believe. The commission is to make disciples and teach them to obey (Matt 28:19-20), not to count decisions. Paul planted, Apollos watered, and G-d gave the growth (1 Cor 3:6-7). Judson waited six years for his first convert and Carey waited seven, and no one today calls their work a failure. In a culture that moves a little bit at a time, I should expect to need the same patience. The shepherd leaves the ninety-nine to go after the one, and heaven rejoices over one sinner who repents (Luke 15:4-7). If that's how heaven counts, I'm not going to be ashamed of three." },
+      { type: 'p', text: "So I have decided that the key to ministry here is primarily discipleship aimed at reproducing believers: entrusting what I've received to faithful people who will be able to teach others also (2 Tim 2:2). I'm an evangelist and a trainer, and that's the work I want to be faithful to (2 Tim 4:5)." },
+      { type: 'h2', text: "Please Pray" },
+      { type: 'p', text: "Please pray for the three, for patience to plant and water well, and that I would speak the truth in love (Eph 4:15), with as much care for how I say things as for what I say." },
+      { type: 'h2', text: "Financial Support" },
+      { type: 'p', text: "I want to begin with thank you, and I want it to land as more than a formality. Some of you have supported this ministry financially. Many of you have faithfully carried me in prayer. Please do not underestimate what that means. Every conversation about Y'shua, every relationship that is slowly becoming real, every seed of the Gospel going into this soil is attached to somebody back home who decided to stand with me." },
+      { type: 'p', text: "Right now I am still praying for 20 people who would commit to giving $100 each month." },
+      { type: 'p', text: "I have just spent this whole letter telling you I am done counting, and then I turn the page and ask you for a number. I am aware of that. It is the hardest section of this letter to write, every time." },
+      { type: 'p', text: "But I would rather be honest than dignified. I need partners. Not out of pressure, not out of guilt, and please not out of whatever emotion this letter stirred up on a Tuesday night — that kind of giving does not last and I would rather not build on it. Bring it before the L-rd. If He says no, tell me no and let us stay friends. If He says yes, you should know exactly what you are funding: rent, language school, time, and presence in a country where less than one person in a hundred has heard." },
+      { type: 'p', text: "Your partnership is what allows me to stay here, keep learning the language, build relationships that take years rather than weeks, and speak the hope of Y'shua to people who may never have clearly heard it. We were each given one life and one short mark between two dates. The things we put into His Kingdom are the only things that outlive the granite." },
+      { type: 'p', text: "PayPal: @4Thailand" },
+      { type: 'p', text: "Zelle: jerodwcox@yahoo.com" },
+      { type: 'p', text: "Physical Mail: 522 Rifle Way, Broomfield, CO 80020" },
+      { type: 'p', text: "Through Congregation Roeh Israel: https://roehisrael.org" },
+      { type: 'h2', text: "Remote Work" },
+      { type: 'p', text: "I am also continuing to look for remote front-end development work or freelance IT opportunities to help sustain the mission while I remain here in Thailand." },
+      { type: 'p', text: "Recent coding project: https://library-react-tutorial-update.vercel.app/" },
+      { type: 'p', text: "Or visit the webpage I designed, and stay up to date with my weekly lessons and weekly prayer needs: https://jerod-cox-thailand.vercel.app/" },
+      { type: 'p', text: "I work with HTML, CSS, JavaScript, React, APIs, and responsive web design — new builds, maintaining existing projects, front-end components, troubleshooting, API integration, and general remote technical support. If you know anyone with a project, website work, or a team that needs an extra set of hands, I would be grateful if you passed my information along. Every hour of paid work is an hour I do not have to raise, and it keeps me in Thailand." },
+    ],
+    closing: {
+      text:
+        "To those of you who already pray, encourage, and give: I cannot overstate my gratitude. Some of the most important things happening over here are the things nobody will ever see a photograph of. Thank you for standing with me, so that the Gospel is carried to places where it is still rarely heard, and so that local believers are equipped to bring that message to their own families, villages, and communities. Please feel free to call or email me if you have any feedback.",
+      signoff: 'Until all have heard,',
+      signature: 'Jerod Cox',
+    },
+  },
+  {
     week: 50,
     slug: 'week-50-three-and-a-shaky-standard',
     title: 'Three, and a Shaky Standard',
