@@ -15,7 +15,7 @@ export default function UpdatesPage() {
         <div className="container">
           {updates.map((u) => (
             <Link className="update-card" to={`/updates/${u.slug}`} key={u.slug}>
-              <span className="update-week">Week {u.week}</span>
+              <span className="update-week">{u.label ?? `Week ${u.week}`}</span>
               <h3>{u.title}</h3>
               <p>{u.excerpt}</p>
               <span className="explore-more">Read the full update →</span>

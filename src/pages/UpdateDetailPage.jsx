@@ -14,7 +14,7 @@ export default function UpdateDetailPage() {
           ← All Updates
         </Link>
 
-        <span className="update-week">Week {update.week}</span>
+        <span className="update-week">{update.label ?? `Week ${update.week}`}</span>
         <h1>{update.title}</h1>
 
         <article className="update-body">

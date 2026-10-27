@@ -21,7 +21,7 @@ export default function Home() {
           <div className="container">
             <div className="section-head">
               <span className="eyebrow">Latest from the field</span>
-              <h2>Week {latest.week}: {latest.title}</h2>
+              <h2>{latest.label ?? `Week ${latest.week}`}: {latest.title}</h2>
               <p>{latest.excerpt}</p>
             </div>
             <Link className="btn btn-primary" to={`/updates/${latest.slug}`}>
