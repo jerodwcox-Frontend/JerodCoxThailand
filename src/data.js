@@ -8,7 +8,13 @@ export const nav = [
 
 export const contact = {
   email: 'jerodwcox@gmail.com',
+  phone: '+1 720-422-4283',
+  phoneHref: 'tel:+17204224283',
+  whatsappHref: 'https://wa.me/17204224283',
+  // Paste the full Facebook profile URL here to show it on the site.
+  facebook: '',
   address: ['522 Rifle Way', 'Broomfield, CO 80020'],
+  timezone: 'Thailand time (UTC+7) — 14 hours ahead of Colorado in winter, 13 in summer',
 };
 
 export const support = {

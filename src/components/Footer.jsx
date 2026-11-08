@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { nav, contact } from '../data';
-import { SproutIcon, MailIcon, PinIcon } from './icons';
+import { SproutIcon, MailIcon, PinIcon, PhoneIcon, ChatIcon, PeopleIcon } from './icons';
 
 export default function Footer() {
   return (
@@ -33,9 +33,20 @@ export default function Footer() {
 
           <div className="footer-col">
             <h4>Contact</h4>
+            <a href={contact.whatsappHref} target="_blank" rel="noopener noreferrer">
+              <ChatIcon width="16" height="16" /> WhatsApp {contact.phone}
+            </a>
+            <a href={contact.phoneHref}>
+              <PhoneIcon width="16" height="16" /> {contact.phone}
+            </a>
             <a href={`mailto:${contact.email}`}>
               <MailIcon width="16" height="16" /> {contact.email}
             </a>
+            {contact.facebook && (
+              <a href={contact.facebook} target="_blank" rel="noopener noreferrer">
+                <PeopleIcon width="16" height="16" /> Facebook
+              </a>
+            )}
             <span className="footer-address">
               <PinIcon width="16" height="16" /> {contact.address.join(', ')}
             </span>

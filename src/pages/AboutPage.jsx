@@ -1,6 +1,48 @@
 import PageBanner from '../components/PageBanner';
-import { SproutIcon } from '../components/icons';
-import { support, remoteWork } from '../data';
+import {
+  SproutIcon,
+  MailIcon,
+  PhoneIcon,
+  ChatIcon,
+  PeopleIcon,
+  PinIcon,
+  ClockIcon,
+} from '../components/icons';
+import { support, remoteWork, contact } from '../data';
+
+const contactMethods = [
+  {
+    icon: PhoneIcon,
+    label: 'Phone',
+    value: contact.phone,
+    href: contact.phoneHref,
+  },
+  {
+    icon: ChatIcon,
+    label: 'WhatsApp',
+    value: contact.phone,
+    href: contact.whatsappHref,
+    external: true,
+  },
+  {
+    icon: MailIcon,
+    label: 'Email',
+    value: contact.email,
+    href: `mailto:${contact.email}`,
+  },
+  contact.facebook && {
+    icon: PeopleIcon,
+    label: 'Facebook',
+    value: 'Follow along on Facebook',
+    href: contact.facebook,
+    external: true,
+  },
+  {
+    icon: PinIcon,
+    label: 'Mail',
+    value: contact.address.join(', '),
+  },
+].filter(Boolean);
 
 export default function AboutPage() {
   return (
@@ -55,6 +97,53 @@ export default function AboutPage() {
               </div>
             )}
           </div>
+        </div>
+      </section>
+
+      <section className="contact" id="contact">
+        <div className="container">
+          <div className="section-head">
+            <span className="eyebrow">Get in touch</span>
+            <h2>Contact Jerod</h2>
+            <p className="contact-lede">
+              Questions, prayer requests, a web project, or just want to say hello? Reach out any
+              time. WhatsApp is the best way to reach me while I'm in Thailand.
+            </p>
+          </div>
+
+          <div className="contact-grid">
+            {contactMethods.map(({ icon: Icon, label, value, href, external }) => {
+              const body = (
+                <>
+                  <span className="contact-icon">
+                    <Icon width="22" height="22" />
+                  </span>
+                  <span className="contact-text">
+                    <span className="contact-label">{label}</span>
+                    <span className="contact-value">{value}</span>
+                  </span>
+                </>
+              );
+              return href ? (
+                <a
+                  key={label}
+                  className="contact-card"
+                  href={href}
+                  {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                >
+                  {body}
+                </a>
+              ) : (
+                <div key={label} className="contact-card">
+                  {body}
+                </div>
+              );
+            })}
+          </div>
+
+          <p className="contact-note">
+            <ClockIcon width="16" height="16" /> {contact.timezone}
+          </p>
         </div>
       </section>
     </>
