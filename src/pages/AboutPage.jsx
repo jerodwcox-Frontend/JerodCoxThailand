@@ -87,6 +87,13 @@ export default function AboutPage() {
               responsive design), taking on remote and freelance projects to help support the
               mission while serving on the field.
             </p>
+            <p>
+              <strong>Ongoing website maintenance is also available on a monthly retainer.</strong>{' '}
+              That covers updates, content changes, bug fixes, security and dependency updates,
+              performance checks, and general support, so your site stays current and running
+              smoothly without you having to manage it.{' '}
+              <a href="#contact">Get in touch</a> to talk about your site.
+            </p>
             {remoteWork.projects.length > 0 && (
               <div className="portfolio-links">
                 {remoteWork.projects.map((p) => (
