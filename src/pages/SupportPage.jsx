@@ -48,6 +48,13 @@ export default function SupportPage() {
               <CodeIcon width="20" height="20" /> Remote Development Work
             </h3>
             <p>{remoteWork.intro}</p>
+            <p>
+              <strong>Ongoing website maintenance is also available on a monthly retainer:</strong>{' '}
+              updates, content changes, bug fixes, security updates, and general support, so a site
+              stays current without the owner having to manage it. If your business, ministry, or
+              congregation has a website that needs someone to look after it,{' '}
+              <a href="#support-contact">Jerod would love to talk</a>.
+            </p>
             <div className="portfolio-links">
               {remoteWork.projects.map((p) => (
                 <a key={p.href} href={p.href} target="_blank" rel="noopener noreferrer" className="chip-link">
@@ -57,7 +64,7 @@ export default function SupportPage() {
             </div>
           </div>
 
-          <div className="support-contact">
+          <div className="support-contact" id="support-contact">
             <MailIcon width="18" height="18" />
             <p>
               Questions about giving or partnership? Reach out any time at{' '}
