@@ -94,6 +94,16 @@ export default function LessonDetailPage() {
             />
             <div className="lesson-audio-footer">
               {lesson.audio.note && <span>{lesson.audio.note}</span>}
+              {lesson.audio.spotifyUrl && (
+                <a
+                  className="spotify-link"
+                  href={lesson.audio.spotifyUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Listen on Spotify ↗
+                </a>
+              )}
               <a
                 href={`https://drive.google.com/file/d/${lesson.audio.driveId}/view`}
                 target="_blank"

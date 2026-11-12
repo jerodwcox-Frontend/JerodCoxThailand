@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import PageBanner from '../components/PageBanner';
-import { lessons } from '../data';
+import { lessons, podcast } from '../data';
 import { PlayIcon } from '../components/icons';
 
 export default function LessonsPage() {
@@ -14,6 +14,21 @@ export default function LessonsPage() {
 
       <section className="updates-list">
         <div className="container">
+          <a
+            className="podcast-banner"
+            href={podcast.spotifyUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/images/podcast-cover.jpg" alt="" width="72" height="72" />
+            <span className="podcast-banner-text">
+              <span className="update-week">Podcast</span>
+              <strong>{podcast.name}</strong>
+              <span>Listen to the weekly lessons on Spotify</span>
+            </span>
+            <span className="podcast-banner-cta">Listen on Spotify ↗</span>
+          </a>
+
           {lessons.map((l) => (
             <Link className="update-card" to={`/lessons/${l.slug}`} key={l.slug}>
               {l.audio ? (

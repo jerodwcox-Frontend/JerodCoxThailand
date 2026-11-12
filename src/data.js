@@ -33,6 +33,11 @@ export const remoteWork = {
   ],
 };
 
+export const podcast = {
+  name: 'From Thailand: Torah and Messiah',
+  spotifyUrl: 'https://open.spotify.com/show/2ZzW112II9OfuizUUvMqhQ',
+};
+
 export const updates = [
   {
     week: 60,
@@ -1147,6 +1152,7 @@ export const lessons = [
       driveId: "1Zspojo-Bzodq1UdwWOM-GcHkSKtdlrVS",
       title: "Listen to this lesson",
       note: "Recorded by Jerod, November 2026",
+      spotifyUrl: "https://open.spotify.com/episode/30oun71d2R2cWjxHfsIAND",
     },
     passages: ["Genesis 21:5–7", "Genesis 26:18–22", "Genesis 22:6–8", "Genesis 27:1–13", "John 4:13–14", "Philippians 1:12–26", "Habakkuk 3:17–19"],
     centralQuestion: "Where does joy that can't be taken away come from? Yitz'chak and Sha'ul give the same answer, almost two thousand years apart.",
