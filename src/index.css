@@ -889,6 +889,53 @@ a.contact-card:hover {
   margin-bottom: 0.5rem;
 }
 
+.lesson-audio {
+  background: var(--white);
+  border: 1px solid var(--cream-100);
+  border-left: 3px solid var(--gold-500);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: 1.25rem 1.5rem;
+  margin: 0 0 2rem;
+  max-width: 720px;
+}
+
+.lesson-audio-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gold-600);
+  margin-bottom: 0.75rem;
+}
+
+.lesson-audio-player {
+  display: block;
+  width: 100%;
+  height: 110px;
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: var(--cream-50);
+}
+
+.lesson-audio-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  color: var(--ink-400);
+}
+
+.lesson-audio-footer a {
+  color: var(--jade-700);
+  font-weight: 600;
+}
+
 .lesson-prompt {
   color: var(--jade-800) !important;
   font-weight: 600;

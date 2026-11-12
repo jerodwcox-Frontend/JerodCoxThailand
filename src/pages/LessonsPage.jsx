@@ -16,20 +16,20 @@ export default function LessonsPage() {
         <div className="container">
           {lessons.map((l) => (
             <Link className="update-card" to={`/lessons/${l.slug}`} key={l.slug}>
-              <span className="update-week">Bible Study</span>
+              {l.audio ? (
+                <span className="update-week update-week-icon">
+                  <PlayIcon width="14" height="14" /> Bible Study · Audio
+                </span>
+              ) : (
+                <span className="update-week">Bible Study</span>
+              )}
               <h3>{l.title}</h3>
               <p>{l.excerpt}</p>
-              <span className="explore-more">Read the study →</span>
+              <span className="explore-more">
+                {l.audio ? 'Read or listen →' : 'Read the study →'}
+              </span>
             </Link>
           ))}
-
-          <div className="update-card update-card-pending">
-            <span className="update-week update-week-icon">
-              <PlayIcon width="14" height="14" /> Coming soon
-            </span>
-            <h3>Recorded Lessons</h3>
-            <p>Audio and video lessons are on the way — check back soon.</p>
-          </div>
         </div>
       </section>
     </>

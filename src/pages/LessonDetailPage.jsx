@@ -1,5 +1,6 @@
 import { Link, useParams, Navigate } from 'react-router-dom';
 import { lessons } from '../data';
+import { PlayIcon } from '../components/icons';
 
 function GemBlock({ block }) {
   return (
@@ -78,6 +79,31 @@ export default function LessonDetailPage() {
         <h1>{lesson.title}</h1>
         {lesson.subtitle && <p className="lesson-subtitle">{lesson.subtitle}</p>}
         {lesson.translationNote && <p className="lesson-translation-note">{lesson.translationNote}</p>}
+
+        {lesson.audio && (
+          <div className="lesson-audio">
+            <span className="lesson-audio-label">
+              <PlayIcon width="16" height="16" /> {lesson.audio.title || 'Listen to this lesson'}
+            </span>
+            <iframe
+              className="lesson-audio-player"
+              src={`https://drive.google.com/file/d/${lesson.audio.driveId}/preview`}
+              title={`Audio recording: ${lesson.title}`}
+              allow="autoplay"
+              loading="lazy"
+            />
+            <div className="lesson-audio-footer">
+              {lesson.audio.note && <span>{lesson.audio.note}</span>}
+              <a
+                href={`https://drive.google.com/file/d/${lesson.audio.driveId}/view`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open in Google Drive ↗
+              </a>
+            </div>
+          </div>
+        )}
 
         {lesson.passages && (
           <div className="core-passages">
