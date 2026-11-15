@@ -1260,3 +1260,28 @@ a.contact-card:hover {
     grid-template-columns: 1fr;
   }
 }
+
+.update-body p a {
+  color: var(--jade-800);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  word-break: break-word;
+}
+
+.update-cta {
+  margin: 2.5rem 0;
+  padding: 1.75rem 2rem;
+  background: var(--jade-900);
+  border-radius: var(--radius-lg);
+}
+
+.update-cta h3 {
+  color: var(--white);
+  margin-bottom: 0.5rem;
+}
+
+.update-body .update-cta p {
+  color: var(--cream-100);
+  margin-bottom: 1.25rem;
+}

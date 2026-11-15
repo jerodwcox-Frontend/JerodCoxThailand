@@ -47,6 +47,22 @@ export default function UpdateDetailPage() {
           {update.body.map((block, i) => {
             if (block.type === 'h2') return <h2 key={i}>{block.text}</h2>;
             if (block.type === 'h3') return <h3 key={i}>{block.text}</h3>;
+            if (block.type === 'cta')
+              return (
+                <div key={i} className="update-cta">
+                  <h3>{block.title}</h3>
+                  <p>{block.text}</p>
+                  {block.href.startsWith(SITE) ? (
+                    <Link className="btn btn-primary" to={block.href.slice(SITE.length) || '/'}>
+                      {block.button}
+                    </Link>
+                  ) : (
+                    <a className="btn btn-primary" href={block.href} target="_blank" rel="noopener noreferrer">
+                      {block.button}
+                    </a>
+                  )}
+                </div>
+              );
             return <p key={i}>{linkify(block.text)}</p>;
           })}
 
@@ -69,6 +85,12 @@ export default function UpdateDetailPage() {
               {update.closing.signoff}
               <br />
               <strong>{update.closing.signature}</strong>
+              {update.closing.phone && (
+                <>
+                  <br />
+                  <a href={`tel:+1${update.closing.phone.replace(/\D/g, '')}`}>{update.closing.phone}</a>
+                </>
+              )}
             </p>
           )}
 
