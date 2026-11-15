@@ -1396,3 +1396,35 @@ a.contact-card:hover {
   color: var(--white);
   text-decoration: underline;
 }
+
+.update-cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.signup-tabs {
+  display: inline-flex;
+  gap: 0.25rem;
+  padding: 0.25rem;
+  margin-bottom: 1.25rem;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+}
+
+.signup-tabs button {
+  font: inherit;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.45rem 1.1rem;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--cream-100);
+  cursor: pointer;
+}
+
+.signup-tabs button.active {
+  background: var(--gold-500);
+  color: var(--jade-950);
+}

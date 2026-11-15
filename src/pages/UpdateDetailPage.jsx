@@ -68,15 +68,24 @@ export default function UpdateDetailPage() {
                 <div key={i} className="update-cta">
                   <h3>{block.title}</h3>
                   <p>{block.text}</p>
-                  {block.href.startsWith(SITE) ? (
-                    <Link className="btn btn-primary" to={block.href.slice(SITE.length) || '/'}>
-                      {block.button}
-                    </Link>
-                  ) : (
-                    <a className="btn btn-primary" href={block.href} target="_blank" rel="noopener noreferrer">
-                      {block.button}
-                    </a>
-                  )}
+                  <div className="update-cta-buttons">
+                    {[
+                      { label: block.button, href: block.href, cls: 'btn btn-primary' },
+                      ...(block.secondary
+                        ? [{ label: block.secondary.button, href: block.secondary.href, cls: 'btn btn-ghost' }]
+                        : []),
+                    ].map((b) =>
+                      b.href.startsWith(SITE) ? (
+                        <Link key={b.label} className={b.cls} to={b.href.slice(SITE.length) || '/'}>
+                          {b.label}
+                        </Link>
+                      ) : (
+                        <a key={b.label} className={b.cls} href={b.href} target="_blank" rel="noopener noreferrer">
+                          {b.label}
+                        </a>
+                      )
+                    )}
+                  </div>
                 </div>
               );
             return <p key={i}>{linkify(block.text)}</p>;
