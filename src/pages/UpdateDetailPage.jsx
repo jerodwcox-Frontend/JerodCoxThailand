@@ -1,6 +1,32 @@
 import { Link, useParams, Navigate } from 'react-router-dom';
 import { updates, support } from '../data';
 
+const URL_RE = /(https?:\/\/[^\s]+)/g;
+const SITE = 'https://jerod-cox-thailand.vercel.app';
+
+function linkify(text) {
+  return text.split(URL_RE).map((part, i) => {
+    if (i % 2 === 0) return part;
+    const trail = part.match(/[.,;:!?)"']+$/)?.[0] ?? '';
+    const url = trail ? part.slice(0, -trail.length) : part;
+    let link;
+    if (url.startsWith(SITE)) {
+      link = (
+        <Link key={i} to={url.slice(SITE.length) || '/'}>
+          {url}
+        </Link>
+      );
+    } else {
+      link = (
+        <a key={i} href={url} target="_blank" rel="noopener noreferrer">
+          {url}
+        </a>
+      );
+    }
+    return trail ? [link, trail] : link;
+  });
+}
+
 export default function UpdateDetailPage() {
   const { slug } = useParams();
   const update = updates.find((u) => u.slug === slug);
@@ -21,7 +47,7 @@ export default function UpdateDetailPage() {
           {update.body.map((block, i) => {
             if (block.type === 'h2') return <h2 key={i}>{block.text}</h2>;
             if (block.type === 'h3') return <h3 key={i}>{block.text}</h3>;
-            return <p key={i}>{block.text}</p>;
+            return <p key={i}>{linkify(block.text)}</p>;
           })}
 
           {update.prayerPoints && (
