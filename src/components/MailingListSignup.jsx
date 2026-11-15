@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
-const ENDPOINT = 'https://formsubmit.co/ajax/jerodwcox@yahoo.com';
+const ENDPOINT = 'https://formsubmit.co/ajax/jerodwcox@gmail.com';
 
 export default function MailingListSignup() {
   const ref = useRef(null);
@@ -40,7 +40,7 @@ export default function MailingListSignup() {
     } catch {
       // Backup: open the visitor's email app with the sign-up already written
       const body = `Please add this email to your mailing list.\n\nName: ${form.name}\nEmail: ${form.email}\nNote: ${form.note || '(none)'}`;
-      window.location.href = `mailto:jerodwcox@yahoo.com?subject=${encodeURIComponent(
+      window.location.href = `mailto:jerodwcox@gmail.com?subject=${encodeURIComponent(
         `Mailing list sign-up: ${form.email}`
       )}&body=${encodeURIComponent(body)}`;
       setStatus('mailto');
@@ -59,7 +59,7 @@ export default function MailingListSignup() {
         <p className="signup-thanks">
           Your email app should open with the sign-up already written. Just press Send. If it
           didn't open, email me at{' '}
-          <a href="mailto:jerodwcox@yahoo.com">jerodwcox@yahoo.com</a> and I'll add you.
+          <a href="mailto:jerodwcox@gmail.com">jerodwcox@gmail.com</a> and I'll add you.
         </p>
       ) : status === 'done' ? (
         <p className="signup-thanks">
@@ -92,7 +92,7 @@ export default function MailingListSignup() {
           {status === 'error' && (
             <p className="signup-error">
               Something went wrong. Please try again, or email me at{' '}
-              <a href="mailto:jerodwcox@yahoo.com">jerodwcox@yahoo.com</a>.
+              <a href="mailto:jerodwcox@gmail.com">jerodwcox@gmail.com</a>.
             </p>
           )}
         </form>
