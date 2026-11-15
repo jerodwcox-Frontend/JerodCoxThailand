@@ -1304,3 +1304,90 @@ a.contact-card:hover {
   color: var(--white);
   box-shadow: var(--shadow-sm);
 }
+
+.signup {
+  margin: 0 0 2.5rem;
+  padding: 2rem;
+  background: var(--jade-900);
+  border-radius: var(--radius-lg);
+  color: var(--cream-100);
+  scroll-margin-top: 100px;
+}
+
+.signup h2 {
+  color: var(--white);
+  margin-bottom: 0.5rem;
+}
+
+.signup > p {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.signup-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.signup-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--white);
+}
+
+.signup-form label span {
+  font-weight: 400;
+  color: var(--cream-100);
+}
+
+.signup-form input,
+.signup-form textarea {
+  font: inherit;
+  font-weight: 400;
+  padding: 0.75rem 0.9rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: var(--white);
+  color: var(--ink-900);
+}
+
+.signup-wide,
+.signup-form .btn,
+.signup-error {
+  grid-column: 1 / -1;
+}
+
+.signup-form .btn {
+  justify-self: start;
+}
+
+.signup-honey {
+  position: absolute;
+  left: -9999px;
+}
+
+.signup-thanks {
+  font-size: 1.1rem;
+  color: var(--gold-400);
+  font-weight: 600;
+}
+
+.signup-error {
+  color: #fca5a5;
+}
+
+.signup-error a {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .signup-form {
+    grid-template-columns: 1fr;
+  }
+}

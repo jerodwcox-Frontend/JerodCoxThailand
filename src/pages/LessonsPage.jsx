@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import PageBanner from '../components/PageBanner';
 import { lessons, podcast } from '../data';
 import { PlayIcon } from '../components/icons';
+import MailingListSignup from '../components/MailingListSignup';
 
 export default function LessonsPage() {
   return (
@@ -14,6 +15,8 @@ export default function LessonsPage() {
 
       <section className="updates-list">
         <div className="container">
+          <MailingListSignup />
+
           <a
             className="podcast-banner"
             href={podcast.spotifyUrl}

@@ -119,7 +119,7 @@ export const updates = [
       { type: 'p', text: "A React library app: https://library-react-tutorial-update.vercel.app/" },
       { type: 'p', text: "I work with HTML, CSS, JavaScript, React, APIs, and responsive web design: new builds, maintaining existing projects, front-end components, troubleshooting, API integration, and general remote tech support. If you know anyone with a project, a website that needs work, or a team that could use an extra set of hands, please pass my name along. Every hour of paid work is an hour I don't have to raise, and it keeps me in Thailand." },
       { type: 'p', text: "I'm also available for ongoing website maintenance on a monthly retainer: updates, content changes, bug fixes, security updates, and general support, so a site stays current without the owner having to manage it. If your business, ministry, or congregation has a website that needs someone to look after it, I'd love to talk." },
-      { type: 'cta', title: "Join the mailing list", text: "Want these updates in your inbox, or know someone who would? Add an email address here.", button: "Add Email", href: "https://jerod-cox-thailand.vercel.app/lessons" },
+      { type: 'cta', title: "Join the mailing list", text: "Want these updates in your inbox, or know someone who would? Add an email address here.", button: "Add Email", href: "https://jerod-cox-thailand.vercel.app/lessons#join" },
       { type: 'h2', text: "Stay Connected" },
       { type: 'p', text: "Everything lives on my website:" },
       { type: 'buttons', links: [
