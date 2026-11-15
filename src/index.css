@@ -1391,3 +1391,8 @@ a.contact-card:hover {
     grid-template-columns: 1fr;
   }
 }
+
+.signup-thanks a {
+  color: var(--white);
+  text-decoration: underline;
+}

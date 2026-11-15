@@ -38,7 +38,12 @@ export default function MailingListSignup() {
       setStatus('done');
       setForm({ name: '', email: '', note: '' });
     } catch {
-      setStatus('error');
+      // Backup: open the visitor's email app with the sign-up already written
+      const body = `Please add this email to your mailing list.\n\nName: ${form.name}\nEmail: ${form.email}\nNote: ${form.note || '(none)'}`;
+      window.location.href = `mailto:jerodwcox@yahoo.com?subject=${encodeURIComponent(
+        `Mailing list sign-up: ${form.email}`
+      )}&body=${encodeURIComponent(body)}`;
+      setStatus('mailto');
     }
   }
 
@@ -50,7 +55,13 @@ export default function MailingListSignup() {
         email in, and tell me who they are in the note.
       </p>
 
-      {status === 'done' ? (
+      {status === 'mailto' ? (
+        <p className="signup-thanks">
+          Your email app should open with the sign-up already written. Just press Send. If it
+          didn't open, email me at{' '}
+          <a href="mailto:jerodwcox@yahoo.com">jerodwcox@yahoo.com</a> and I'll add you.
+        </p>
+      ) : status === 'done' ? (
         <p className="signup-thanks">
           Thank you! I'll add that email to the list, and the next update will be on its way.
         </p>
