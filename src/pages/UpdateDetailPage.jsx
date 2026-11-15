@@ -47,6 +47,22 @@ export default function UpdateDetailPage() {
           {update.body.map((block, i) => {
             if (block.type === 'h2') return <h2 key={i}>{block.text}</h2>;
             if (block.type === 'h3') return <h3 key={i}>{block.text}</h3>;
+            if (block.type === 'buttons')
+              return (
+                <div key={i} className="update-buttons">
+                  {block.links.map((l, j) =>
+                    l.href.startsWith(SITE) ? (
+                      <Link key={j} className="btn btn-outline" to={l.href.slice(SITE.length) || '/'}>
+                        {l.label}
+                      </Link>
+                    ) : (
+                      <a key={j} className="btn btn-outline" href={l.href} target="_blank" rel="noopener noreferrer">
+                        {l.label}
+                      </a>
+                    )
+                  )}
+                </div>
+              );
             if (block.type === 'cta')
               return (
                 <div key={i} className="update-cta">

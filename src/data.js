@@ -121,11 +121,14 @@ export const updates = [
       { type: 'p', text: "I'm also available for ongoing website maintenance on a monthly retainer: updates, content changes, bug fixes, security updates, and general support, so a site stays current without the owner having to manage it. If your business, ministry, or congregation has a website that needs someone to look after it, I'd love to talk." },
       { type: 'cta', title: "Join the mailing list", text: "Want these updates in your inbox, or know someone who would? Add an email address here.", button: "Add Email", href: "https://jerod-cox-thailand.vercel.app/lessons" },
       { type: 'h2', text: "Stay Connected" },
-      { type: 'p', text: "Everything lives on my website: https://jerod-cox-thailand.vercel.app/" },
-      { type: 'p', text: "Read past updates: https://jerod-cox-thailand.vercel.app/updates" },
-      { type: 'p', text: "Weekly lessons: https://jerod-cox-thailand.vercel.app/lessons" },
-      { type: 'p', text: "Pray and partner with me: https://jerod-cox-thailand.vercel.app/support" },
-      { type: 'p', text: "The calling and the work: https://jerod-cox-thailand.vercel.app/about" },
+      { type: 'p', text: "Everything lives on my website:" },
+      { type: 'buttons', links: [
+        { label: 'Home', href: 'https://jerod-cox-thailand.vercel.app/' },
+        { label: 'Read past updates', href: 'https://jerod-cox-thailand.vercel.app/updates' },
+        { label: 'Weekly lessons', href: 'https://jerod-cox-thailand.vercel.app/lessons' },
+        { label: 'Pray and partner with me', href: 'https://jerod-cox-thailand.vercel.app/support' },
+        { label: 'The calling and the work', href: 'https://jerod-cox-thailand.vercel.app/about' },
+      ] },
     ],
     closing: {
       text:

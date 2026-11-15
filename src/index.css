@@ -1285,3 +1285,22 @@ a.contact-card:hover {
   color: var(--cream-100);
   margin-bottom: 1.25rem;
 }
+
+.update-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0.5rem 0 2rem;
+}
+
+.btn-outline {
+  background: var(--white);
+  border-color: var(--jade-800);
+  color: var(--jade-800);
+}
+
+.btn-outline:hover {
+  background: var(--jade-800);
+  color: var(--white);
+  box-shadow: var(--shadow-sm);
+}
