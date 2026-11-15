@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import PageBanner from '../components/PageBanner';
 import { updates } from '../data';
+import MailingListSignup from '../components/MailingListSignup';
 
 export default function UpdatesPage() {
   return (
@@ -13,6 +14,8 @@ export default function UpdatesPage() {
 
       <section className="updates-list">
         <div className="container">
+          <MailingListSignup />
+
           {updates.map((u) => (
             <Link className="update-card" to={`/updates/${u.slug}`} key={u.slug}>
               <span className="update-week">{u.label ?? `Week ${u.week}`}</span>

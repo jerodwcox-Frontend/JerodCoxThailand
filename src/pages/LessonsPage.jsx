@@ -1,10 +1,13 @@
-import { Link } from 'react-router-dom';
+import { Link, Navigate, useLocation } from 'react-router-dom';
 import PageBanner from '../components/PageBanner';
 import { lessons, podcast } from '../data';
 import { PlayIcon } from '../components/icons';
-import MailingListSignup from '../components/MailingListSignup';
 
 export default function LessonsPage() {
+  const { hash } = useLocation();
+  // Older emails linked to the sign-up form here; it now lives on the Updates page
+  if (hash === '#join' || hash === '#optout') return <Navigate to={`/updates${hash}`} replace />;
+
   return (
     <>
       <PageBanner
@@ -15,8 +18,6 @@ export default function LessonsPage() {
 
       <section className="updates-list">
         <div className="container">
-          <MailingListSignup />
-
           <a
             className="podcast-banner"
             href={podcast.spotifyUrl}
