@@ -1,5 +1,6 @@
 import { Link, useParams, Navigate } from 'react-router-dom';
 import { updates, support } from '../data';
+import { PlayIcon } from '../components/icons';
 
 const URL_RE = /(https?:\/\/[^\s]+)/g;
 const SITE = 'https://jerod-cox-thailand.vercel.app';
@@ -42,6 +43,22 @@ export default function UpdateDetailPage() {
 
         <span className="update-week">{update.label ?? `Week ${update.week}`}</span>
         <h1>{update.title}</h1>
+
+        {update.audio && (
+          <div className="lesson-audio update-audio">
+            <span className="lesson-audio-label">
+              <PlayIcon width="16" height="16" /> {update.audio.title || 'Listen to this update'}
+            </span>
+            <audio className="update-audio-player" controls preload="metadata" src={update.audio.src}>
+              Your browser can't play this audio. <a href={update.audio.src}>Download the recording</a>.
+            </audio>
+            {update.audio.note && (
+              <div className="lesson-audio-footer">
+                <span>{update.audio.note}</span>
+              </div>
+            )}
+          </div>
+        )}
 
         <article className="update-body">
           {update.body.map((block, i) => {

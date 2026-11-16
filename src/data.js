@@ -45,6 +45,11 @@ export const updates = [
     title: "Ngao",
     excerpt:
       "Bangkok has 11 million people, and millions of them feel completely alone. What 1 Kings 19 showed me about loneliness, burnout, and a commission bigger than one person, plus why ministry in honest Thailand feels like an ultramarathon without aid stations.",
+    audio: {
+      src: '/audio/update61-ngao.mp3',
+      title: 'Listen to this update',
+      note: 'Read by Jerod · about 26 minutes',
+    },
     body: [
       { type: 'p', text: "Shalom everyone," },
       { type: 'h2', text: "Eleven million people, and still alone" },
