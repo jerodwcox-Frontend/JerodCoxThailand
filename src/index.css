@@ -943,6 +943,13 @@ a.contact-card:hover {
   border-radius: 999px;
 }
 
+.lesson-audio-footer .pocketcasts-link {
+  background: #f43e37;
+  color: #fff;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+}
+
 .podcast-banner {
   display: flex;
   align-items: center;
@@ -956,9 +963,18 @@ a.contact-card:hover {
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-.podcast-banner:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
+.podcast-banner-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.podcast-banner-cta:hover {
+  filter: brightness(1.08);
+}
+
+.podcast-banner-cta.podcast-banner-cta-pocketcasts {
+  background: #f43e37;
 }
 
 .podcast-banner img {
@@ -1001,8 +1017,10 @@ a.contact-card:hover {
   .podcast-banner {
     flex-wrap: wrap;
   }
-  .podcast-banner-cta {
+  .podcast-banner-links {
     width: 100%;
+  }
+  .podcast-banner-cta {
     text-align: center;
   }
 }

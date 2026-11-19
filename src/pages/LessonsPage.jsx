@@ -18,20 +18,32 @@ export default function LessonsPage() {
 
       <section className="updates-list">
         <div className="container">
-          <a
-            className="podcast-banner"
-            href={podcast.spotifyUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <div className="podcast-banner">
             <img src="/images/podcast-cover.jpg" alt="" width="72" height="72" />
             <span className="podcast-banner-text">
               <span className="update-week">Podcast</span>
               <strong>{podcast.name}</strong>
-              <span>Listen to the weekly lessons on Spotify</span>
+              <span>Listen to the weekly lessons on Spotify or Pocket Casts</span>
             </span>
-            <span className="podcast-banner-cta">Listen on Spotify ↗</span>
-          </a>
+            <span className="podcast-banner-links">
+              <a
+                className="podcast-banner-cta"
+                href={podcast.spotifyUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Listen on Spotify ↗
+              </a>
+              <a
+                className="podcast-banner-cta podcast-banner-cta-pocketcasts"
+                href={podcast.pocketCastsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Listen on Pocket Casts ↗
+              </a>
+            </span>
+          </div>
 
           {lessons.map((l) => (
             <Link className="update-card" to={`/lessons/${l.slug}`} key={l.slug}>

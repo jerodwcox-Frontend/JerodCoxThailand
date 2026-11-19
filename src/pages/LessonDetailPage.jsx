@@ -1,5 +1,5 @@
 import { Link, useParams, Navigate } from 'react-router-dom';
-import { lessons } from '../data';
+import { lessons, podcast } from '../data';
 import { PlayIcon } from '../components/icons';
 
 function GemBlock({ block }) {
@@ -102,6 +102,16 @@ export default function LessonDetailPage() {
                   rel="noopener noreferrer"
                 >
                   Listen on Spotify ↗
+                </a>
+              )}
+              {lesson.audio.spotifyUrl && (
+                <a
+                  className="pocketcasts-link"
+                  href={podcast.pocketCastsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Pocket Casts ↗
                 </a>
               )}
               <a

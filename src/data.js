@@ -36,6 +36,7 @@ export const remoteWork = {
 export const podcast = {
   name: 'From Thailand: Torah and Messiah',
   spotifyUrl: 'https://open.spotify.com/show/2ZzW112II9OfuizUUvMqhQ',
+  pocketCastsUrl: 'https://pca.st/i84n61rq',
 };
 
 export const updates = [
