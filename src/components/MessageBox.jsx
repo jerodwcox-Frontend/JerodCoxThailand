@@ -94,7 +94,7 @@ export default function MessageBox() {
                   name="email"
                   value={form.email}
                   onChange={update}
-                  placeholder="Your email (optional, if you'd like a reply)"
+                  placeholder="Your email (optional, for a reply)"
                 />
               </div>
               <button className="btn btn-primary" type="submit" disabled={status === 'sending'}>
