@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
-import { updates } from '../data';
+import { updates, lessons } from '../data';
 import { BookIcon, HeartIcon, HandsIcon } from '../components/icons';
 
 const quickLinks = [
@@ -11,6 +11,7 @@ const quickLinks = [
 
 export default function Home() {
   const latest = updates[0];
+  const lesson = lessons[0];
 
   return (
     <>
@@ -27,6 +28,27 @@ export default function Home() {
             <Link className="btn btn-primary" to={`/updates/${latest.slug}`}>
               Read the Full Update
             </Link>
+          </div>
+        </section>
+      )}
+
+      {lesson && (
+        <section className="latest-lesson">
+          <div className="container">
+            <div className="section-head">
+              <span className="eyebrow">This week's study</span>
+              <h2>{lesson.title}</h2>
+              {lesson.subtitle && <p className="latest-lesson-sub">{lesson.subtitle}</p>}
+              <p>{lesson.excerpt}</p>
+            </div>
+            <div className="latest-lesson-actions">
+              <Link className="btn btn-primary" to={`/lessons/${lesson.slug}`}>
+                Read the Study
+              </Link>
+              <Link className="btn btn-outline" to="/lessons">
+                All Lessons
+              </Link>
+            </div>
           </div>
         </section>
       )}
