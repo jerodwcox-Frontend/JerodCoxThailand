@@ -1253,6 +1253,12 @@ export const lessons = [
     subtitle: "Joy That Can't Be Taken: Philippians 1 Through the Torah Portions · Lesson 2 · Parashat Vayetzei (Genesis 28:10–32:3)",
     translationNote: "וַיֵּצֵא — Vayetzei, “and he went out” (Genesis 28:10)",
     excerpt: "Ya'akov grabbed, Esav sulked, and Leah gave thanks. A wedding-night trick, a stairway in the dark, and the unloved wife whose fourth son was named Praise: how to live when you're not the favorite.",
+    audio: {
+      driveId: "1OYhePToZipkOWPjORv5o8LlWayO6Pa82",
+      title: "Listen to this lesson",
+      note: "Recorded by Jerod, November 2026",
+      spotifyUrl: "https://open.spotify.com/episode/5gfDLkFde7Uv5fK8DiPAFE",
+    },
     passages: ["Genesis 29:23–26", "Genesis 29:9–11", "Genesis 28:12–17", "John 1:47–51", "Genesis 29:31–35", "Genesis 31:19–20", "Psalm 51:10–12"],
     centralQuestion: "How do you live when you're not the favorite? Ya'akov, Esav and Leah each answer differently, and only one road leads to joy.",
     body: [
