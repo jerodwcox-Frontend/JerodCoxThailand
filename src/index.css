@@ -1477,3 +1477,99 @@ a.contact-card:hover {
   flex-wrap: wrap;
   gap: 0.75rem;
 }
+
+.message-box {
+  padding: 1rem 0 4rem;
+}
+
+.message-card {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 2rem;
+  padding: 2rem;
+  background: var(--white);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.message-intro .eyebrow {
+  color: var(--jade-800);
+}
+
+.message-intro h2 {
+  font-size: 1.5rem;
+  margin: 0.35rem 0 0.6rem;
+}
+
+.message-intro p {
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.message-kinds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.message-kinds label {
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--jade-800);
+  color: var(--jade-800);
+}
+
+.message-kinds label.active {
+  background: var(--jade-800);
+  color: var(--white);
+}
+
+.message-kinds input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.message-form textarea,
+.message-form input[name='name'],
+.message-form input[name='email'] {
+  font: inherit;
+  padding: 0.7rem 0.85rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  background: var(--white);
+}
+
+.message-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.message-form .btn {
+  align-self: flex-start;
+}
+
+.message-thanks {
+  align-self: center;
+  font-weight: 600;
+  color: var(--jade-800);
+  font-size: 1.05rem;
+}
+
+@media (max-width: 760px) {
+  .message-card,
+  .message-row {
+    grid-template-columns: 1fr;
+  }
+}

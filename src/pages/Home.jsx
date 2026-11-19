@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
+import MessageBox from '../components/MessageBox';
 import { updates, lessons } from '../data';
 import { BookIcon, HeartIcon, HandsIcon } from '../components/icons';
 
@@ -69,6 +70,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <MessageBox />
     </>
   );
 }
