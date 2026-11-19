@@ -1254,7 +1254,7 @@ export const lessons = [
     translationNote: "יִצְחָק — Yitz'chak, “he laughs” (Genesis 21:6)",
     excerpt: "The quietest patriarch in the Torah and a man writing from a prison cell teach the same lesson: where joy that can't be taken away comes from. Wells, rivals, a blind father's blessing, and the letter of joy.",
     audio: {
-      driveId: "1Zspojo-Bzodq1UdwWOM-GcHkSKtdlrVS",
+      src: "/audio/toldot-lesson1.mp3",
       title: "Listen to this lesson",
       note: "Recorded by Jerod, November 2026",
       spotifyUrl: "https://open.spotify.com/episode/30oun71d2R2cWjxHfsIAND",

@@ -85,13 +85,19 @@ export default function LessonDetailPage() {
             <span className="lesson-audio-label">
               <PlayIcon width="16" height="16" /> {lesson.audio.title || 'Listen to this lesson'}
             </span>
-            <iframe
-              className="lesson-audio-player"
-              src={`https://drive.google.com/file/d/${lesson.audio.driveId}/preview`}
-              title={`Audio recording: ${lesson.title}`}
-              allow="autoplay"
-              loading="lazy"
-            />
+            {lesson.audio.src ? (
+              <audio className="update-audio-player" controls preload="metadata" src={lesson.audio.src}>
+                Your browser can't play this audio. <a href={lesson.audio.src}>Download the recording</a>.
+              </audio>
+            ) : (
+              <iframe
+                className="lesson-audio-player"
+                src={`https://drive.google.com/file/d/${lesson.audio.driveId}/preview`}
+                title={`Audio recording: ${lesson.title}`}
+                allow="autoplay"
+                loading="lazy"
+              />
+            )}
             <div className="lesson-audio-footer">
               {lesson.audio.note && <span>{lesson.audio.note}</span>}
               {lesson.audio.spotifyUrl && (
@@ -114,13 +120,15 @@ export default function LessonDetailPage() {
                   Pocket Casts ↗
                 </a>
               )}
-              <a
-                href={`https://drive.google.com/file/d/${lesson.audio.driveId}/view`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Open in Google Drive ↗
-              </a>
+              {lesson.audio.driveId && (
+                <a
+                  href={`https://drive.google.com/file/d/${lesson.audio.driveId}/view`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Open in Google Drive ↗
+                </a>
+              )}
             </div>
           </div>
         )}
