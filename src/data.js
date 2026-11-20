@@ -4,6 +4,7 @@ export const nav = [
   { label: 'Updates', href: '/updates' },
   { label: 'Lessons', href: '/lessons' },
   { label: 'Support', href: '/support' },
+  { label: 'Comments', href: '/comments' },
 ];
 
 export const contact = {
