@@ -24,7 +24,7 @@ export default function Hero() {
               Support the Mission
             </Link>
             <Link className="btn btn-ghost" to="/comments">
-              Send a Prayer Request
+              Make a Comment or Leave a Prayer Request
             </Link>
           </div>
         </div>
