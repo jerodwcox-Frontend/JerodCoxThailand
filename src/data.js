@@ -47,6 +47,11 @@ export const updates = [
     title: "No Reason Given",
     excerpt:
       "My wife's visitor visa was denied, with no reason given. How Jacob, Leah, and the Torah portion Vayetzei steadied us, plus Loy Krathong in the canals, Hanukkah and Christmas openings, and my January trip to the BTJ conference.",
+    audio: {
+      src: '/audio/update62-no-reason-given.mp3',
+      title: 'Listen to this update',
+      note: 'Read by Jerod · about 15 minutes',
+    },
     body: [
       { type: 'p', text: "Shalom everyone," },
       { type: 'h2', text: "The answer was no" },
