@@ -1338,6 +1338,11 @@ export const lessons = [
     translationNote: "וַיִּשְׁלַח — Vayishlach, “and he sent” (Genesis 32:3)",
     excerpt: "Ya'akov sent gifts across the river and stayed behind. Then he wrestled at Peniel, went first, and found G-d's face in his brother's. A study on Loy Krathong, Hanukkah, and why peace isn't sent but faced.",
     passages: ["Genesis 32:16–21", "Genesis 32:22–30", "Matthew 5:23–24", "Genesis 33:1–4", "Genesis 33:8–11", "Philippians 2:3–8", "Genesis 34:13–14, 30–31", "Philippians 4:2–3", "Philippians 2:14–16"],
+    audio: {
+      src: "/audio/lesson3-vayishlach.mp3",
+      title: "Listen to this lesson",
+      note: "Recorded by Jerod, November 2026 · the shorter podcast version of this study",
+    },
     centralQuestion: "When someone has something against you, what do you do? Do you send something, or do you go?",
     body: [
       { type: "p", text: "Part of this study deals with the assault on Dinah in Genesis 34. I've tried to handle it gently and without detail." },
