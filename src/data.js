@@ -1342,6 +1342,7 @@ export const lessons = [
       src: "/audio/lesson3-vayishlach.mp3",
       title: "Listen to this lesson",
       note: "Recorded by Jerod, November 2026 · the shorter podcast version of this study",
+      spotifyUrl: "https://open.spotify.com/episode/4sbw8awh8VbS0VKOdZbl80",
     },
     centralQuestion: "When someone has something against you, what do you do? Do you send something, or do you go?",
     body: [
