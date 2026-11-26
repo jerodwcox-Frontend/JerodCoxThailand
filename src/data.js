@@ -46,6 +46,11 @@ export const updates = [
     slug: "week-63-what-if-g-d-said-yes",
     title: "What If G-d Said Yes?",
     excerpt: "Happy Thanksgiving! After last week's no, a door opened partway: my marriage visa extension is under consideration. A question that's been following me, how the mantle is passed through relationship, legacy, and who decides what's right in Thailand.",
+    audio: {
+      src: '/audio/update63-what-if-g-d-said-yes.mp3',
+      title: 'Listen to this update',
+      note: 'Read by Jerod · about 16 minutes',
+    },
     body: [
       { type: 'p', text: "Shalom everyone, and Happy Thanksgiving!" },
       { type: 'p', text: "Today is Thanksgiving back home. Here in Bangkok it's just another Thursday, with no parade, no football and no pumpkin pie. But I have plenty to be thankful for this year, and I want to start with this week's news." },
